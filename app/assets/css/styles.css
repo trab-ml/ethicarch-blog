@@ -1,0 +1,14 @@
+
+:root {
+    --primary: #003786;
+    --secondary: #4b6c4c;
+    --tertiary: #4a5565;
+
+    --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+    --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+    --mono: ui-monospace, Consolas, monospace;
+}
+
+main {
+    margin-top: 1rem;
+}

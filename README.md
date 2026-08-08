@@ -13,4 +13,5 @@ npm run dev
 npm run preview
 
 # npx nuxi@latest module add tailwindcss
+# npm install nuxt-i18n-micro
 ```
