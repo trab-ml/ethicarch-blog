@@ -1,6 +1,6 @@
 <template>
-    <div class="w-60 flex flex-col mx-auto text-sm">
-        <header>
+    <div class="relative w-60 min-h-screen flex flex-col mx-auto text-sm">
+        <header class="fixed w-60 mx-auto">
             <nav
                 class="flex justify-center gap-2 mt-3 p-2 border-2 border-black/60 rounded-xl"
             >
@@ -10,20 +10,22 @@
                 <LanguageSwitcher />
             </nav>
         </header>
-        <main>
+        <main class="mt-12 text-justify sm:text-left">
             <slot />
         </main>
         <footer>
-            <ul class="flex items-center gap-2">
+            <ul class="absolute bottom-3 flex items-center gap-1 p-1 border-2 border-black/60 rounded-xl text-[0.76rem]">
                 <li>
-                    Build by
+                    <span>{{$t("footer.author.prename")}}</span>
                     <a href="https://ethicalarchitect.fr/" target="__blank"
-                        >Ethicarch</a
+                        >{{$t("footer.author.name")}}</a
                     >
                 </li>
                 <li>
-                    Powered by
-                    <a href="https://nuxt.com/" target="__blank">Nuxt</a>
+                    <span>{{$t("footer.support.prename")}}</span>
+                    <a href="https://nuxt.com/" target="__blank"
+                        >{{$t("footer.support.name")}}</a
+                    >
                 </li>
             </ul>
         </footer>
@@ -33,3 +35,9 @@
 <script setup>
 import LanguageSwitcher from "~/components/LanguageSwitcher.vue";
 </script>
+
+<style lang="css" scoped>
+footer a {
+    text-decoration: underline;
+}
+</style>

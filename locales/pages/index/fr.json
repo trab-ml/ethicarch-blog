@@ -1,5 +1,10 @@
 {
     "title": "Accueil",
-    "description": "Ceci est le site blog de",
-    "rootWebsite": "Ethicarch"
+    "description": "Ce site blog ambitionne de vous partager la vision de",
+    "rootWebsite": "Ethicarch.",
+    "callToAction": "Faites-moi part de vos idées",
+    "articleSection": {
+        "title": "Articles récents",
+        "description": "Mes derniers articles sur le développement d'applications et l'industrie de la tech."
+    }
 }

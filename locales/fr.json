@@ -3,5 +3,15 @@
         "home": "Accueil",
         "articles": "Articles",
         "about": "À propos"
+    },
+    "footer": {
+        "author": {
+            "prename": "Construit par ",
+            "name": "Ethicarch"
+        },
+        "support": {
+            "prename": "Propulsé par ",
+            "name": "Nuxt"
+        }
     }
 }
