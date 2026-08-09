@@ -28,14 +28,15 @@
 
         <div class="my-4">
             <section
-                v-for="article in lastArticles"
-                class="w-full flex flex-col my-1 border sm:flex-row"
+                v-for="(article, index) in lastArticles"
+                class="w-full flex flex-col my-8 border rounded-xl gap-2 sm:flex-row"
             >
                 <div class="sm:w-1/2">
                     <img
                         :src="`imgs/${article.imgUrl}`"
                         :alt="article.imgAlt"
-                        class="border rounded-xl"
+                        class="border-4 sm:border-8 border-black/40 rounded-xl"
+                        :class="index%2 == 0 ? 'skew-x-3 -skew-y-3' : '-skew-x-3 skew-y-2'"
                     />
                 </div>
                 <section class="sm:w-1/2">

@@ -18,7 +18,7 @@
         </main>
         <footer class="my-3">
             <ul
-                class="absolute bottom-3 w-full flex items-center gap-1 p-1 border-2 border-black/60 rounded-xl text-[0.76rem] sm:text-xl sm:justify-center"
+                class="absolute bottom-3 w-full flex items-center gap-1 p-1 border-2 border-black/60 rounded-xl text-[0.70rem] sm:text-xl sm:justify-center"
             >
                 <li>
                     <span>{{ $t("footer.author.prename") }}</span>
@@ -26,7 +26,7 @@
                         $t("footer.author.name")
                     }}</a>
                 </li>
-                |
+                <li>|</li>
                 <li>
                     <span>{{ $t("footer.support.prename") }}</span>
                     <a href="https://nuxt.com/" target="__blank">{{
@@ -48,7 +48,7 @@ const handleScroll = () => {
     if (!headerNav.value) return;
 
     if (window.scrollY > 90) {
-        headerNav.value.style.backgroundColor = "#f7f9fc";
+        headerNav.value.style.backgroundColor = "var(--secondary)";
     } else {
         headerNav.value.style.backgroundColor = "#fff";
     }

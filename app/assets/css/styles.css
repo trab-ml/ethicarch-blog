@@ -1,7 +1,6 @@
 :root {
     --primary: #003786;
-    --secondary: #4b6c4c;
-    --tertiary: #4a5565;
+    --secondary: #f7f9fc;
 
     --sans: system-ui, "Segoe UI", Roboto, sans-serif;
     --heading: system-ui, "Segoe UI", Roboto, sans-serif;
@@ -35,6 +34,10 @@ h3 {
 h4 {
     font-size: 1.25rem;
     margin: 0.5rem 0;
+}
+
+header a:hover {
+    color: var(--primary);
 }
 
 footer a {
