@@ -17,7 +17,7 @@
                 class="hover:text-blue-600 hover:cursor"
                 target="__blank"
             >
-                <img :src="letterBold" alt="Letter bold" width="32px" />
+                <img :src="letterBold" alt="Letter bold" width="32px" class="ms-1"/>
             </a>
         </p>
 
@@ -25,10 +25,33 @@
             <h2>{{ $t("articleSection.title") }}</h2>
             <p>{{ $t("articleSection.description") }}</p>
         </section>
+
+        <div class="my-4">
+            <section
+                v-for="article in lastArticles"
+                class="w-full flex flex-col my-1 border sm:flex-row"
+            >
+                <div class="sm:w-1/2">
+                    <img
+                        :src="`imgs/${article.imgUrl}`"
+                        :alt="article.imgAlt"
+                        class="border rounded-xl"
+                    />
+                </div>
+                <section class="sm:w-1/2">
+                    <h3>{{ article.title }}</h3>
+                    <p>{{ article.teaser }}</p>
+                    <span>{{ article.createdAt }}</span>
+                </section>
+            </section>
+        </div>
     </main>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import "~/assets/css/styles.css";
 import letterBold from "~/assets/icons/letter-bold.png";
+import { useArticles } from "~/composables/useArticles";
+
+const lastArticles = useArticles().slice(-3);
 </script>

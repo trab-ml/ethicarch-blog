@@ -13,5 +13,19 @@
             "prename": "Propulsé par ",
             "name": "Nuxt"
         }
-    }
+    },
+    "articles": [
+        {
+            "title": "TITRE ARTICLE #1",
+            "teaser": "PHRASE ACCROCHE #1",
+            "content": "CONTENU ARTICLE #1",
+            "imgAlt": "fitness"
+        },
+        {
+            "title": "TITRE ARTICLE #2",
+            "teaser": "PHRASE ACCROCHE #2",
+            "content": "CONTENU ARTICLE #2",
+            "imgAlt": "sandisk"
+        }
+    ]
 }

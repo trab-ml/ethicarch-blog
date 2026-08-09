@@ -28,5 +28,6 @@ button.lang-btn:first-child {
 }
 button.lang-btn.current-lang {
     color: var(--primary);
+    font-weight: bolder;
 }
 </style>
