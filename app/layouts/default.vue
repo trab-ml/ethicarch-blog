@@ -1,7 +1,10 @@
 <template>
-    <div class="relative w-60 min-h-screen flex flex-col mx-auto text-sm sm:text-xl sm:w-3/5">
-        <header class="fixed w-60 mx-auto sm:w-3/5">
+    <div
+        class="relative w-60 min-h-screen flex flex-col mx-auto text-sm sm:text-xl sm:w-3/5"
+    >
+        <header class="fixed w-60 mx-auto bg-transparent sm:w-3/5">
             <nav
+                ref="headerNav"
                 class="flex justify-center gap-2 mt-3 p-2 border-2 border-black/60 rounded-xl"
             >
                 <NuxtLink to="/">{{ $t("header.home") }}</NuxtLink>
@@ -14,24 +17,47 @@
             <slot />
         </main>
         <footer class="my-3">
-            <ul class="absolute bottom-3 w-full flex items-center gap-1 p-1 border-2 border-black/60 rounded-xl text-[0.76rem] sm:text-xl sm:justify-center">
+            <ul
+                class="absolute bottom-3 w-full flex items-center gap-1 p-1 border-2 border-black/60 rounded-xl text-[0.76rem] sm:text-xl sm:justify-center"
+            >
                 <li>
-                    <span>{{$t("footer.author.prename")}}</span>
-                    <a href="https://ethicalarchitect.fr/" target="__blank"
-                        >{{$t("footer.author.name")}}</a
-                    >
-                </li> |
+                    <span>{{ $t("footer.author.prename") }}</span>
+                    <a href="https://ethicalarchitect.fr/" target="__blank">{{
+                        $t("footer.author.name")
+                    }}</a>
+                </li>
+                |
                 <li>
-                    <span>{{$t("footer.support.prename")}}</span>
-                    <a href="https://nuxt.com/" target="__blank"
-                        >{{$t("footer.support.name")}}</a
-                    >
+                    <span>{{ $t("footer.support.prename") }}</span>
+                    <a href="https://nuxt.com/" target="__blank">{{
+                        $t("footer.support.name")
+                    }}</a>
                 </li>
             </ul>
         </footer>
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import LanguageSwitcher from "~/components/LanguageSwitcher.vue";
+import { ref, onMounted, onUnmounted } from "vue";
+
+const headerNav = ref<HTMLElement | null>(null);
+
+const handleScroll = () => {
+    if (!headerNav.value) return;
+
+    if (window.scrollY > 90) {
+        headerNav.value.style.backgroundColor = "#f7f9fc";
+    } else {
+        headerNav.value.style.backgroundColor = "#fff";
+    }
+};
+
+onMounted(() => {
+    window.addEventListener("scroll", handleScroll);
+});
+onUnmounted(() => {
+    window.removeEventListener("scroll", handleScroll);
+});
 </script>
