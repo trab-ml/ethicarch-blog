@@ -17,7 +17,12 @@
                 class="hover:text-blue-600 hover:cursor"
                 target="__blank"
             >
-                <img :src="letterBold" alt="Letter bold" width="32px" class="ms-1"/>
+                <img
+                    :src="letterBold"
+                    alt="Letter bold"
+                    width="32px"
+                    class="ms-1"
+                />
             </a>
         </p>
 
@@ -36,13 +41,23 @@
                         :src="`imgs/${article.imgUrl}`"
                         :alt="article.imgAlt"
                         class="border-4 sm:border-8 border-black/40 rounded-xl"
-                        :class="index%2 == 0 ? 'skew-x-3 -skew-y-3' : '-skew-x-3 skew-y-2'"
+                        :class="
+                            index % 2 == 0
+                                ? 'skew-x-3 -skew-y-3'
+                                : '-skew-x-3 skew-y-2'
+                        "
                     />
                 </div>
                 <section class="sm:w-1/2">
-                    <h3>{{ article.title }}</h3>
+                    <h3
+                        class="change-col-at-hovering cursor-pointer-at-hovering"
+                    >
+                        {{ article.title }}
+                    </h3>
                     <p>{{ article.teaser }}</p>
-                    <span>{{ article.createdAt }}</span>
+                    <span class="text-black/80">{{
+                        formatDate(article.createdAt, $getLocale())
+                    }}</span>
                 </section>
             </section>
         </div>
@@ -53,6 +68,9 @@
 import "~/assets/css/styles.css";
 import letterBold from "~/assets/icons/letter-bold.png";
 import { useArticles } from "~/composables/useArticles";
+import { formatDate } from "~/utils/formatDate";
+import { useI18n } from "#imports";
 
 const lastArticles = useArticles().slice(-3);
+const { $getLocale } = useI18n();
 </script>

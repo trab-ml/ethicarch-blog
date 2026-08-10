@@ -2,7 +2,7 @@
     <div
         class="relative w-60 min-h-screen flex flex-col mx-auto text-sm sm:text-xl sm:w-3/5"
     >
-        <header class="fixed w-60 mx-auto bg-transparent sm:w-3/5">
+        <header class="fixed w-60 mx-auto bg-transparent sm:w-3/5 z-40">
             <nav
                 ref="headerNav"
                 class="flex justify-center gap-2 mt-3 p-2 border-2 border-black/60 rounded-xl"
@@ -13,7 +13,7 @@
                 <LanguageSwitcher />
             </nav>
         </header>
-        <main class="mt-12 mb-6 text-justify sm:text-left">
+        <main class="mt-12 mb-6 text-justify z-30 sm:text-left">
             <slot />
         </main>
         <footer class="my-3">

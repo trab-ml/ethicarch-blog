@@ -16,16 +16,16 @@
     },
     "articles": [
         {
-            "title": "TITRE ARTICLE #1",
-            "teaser": "PHRASE ACCROCHE #1",
+            "title": "Qu'est ce que le développement web",
+            "teaser": "Développeur.euse web, frontend, backend ou encore full stack des facettes du même métier ?",
             "content": "CONTENU ARTICLE #1",
             "imgAlt": "fitness"
         },
         {
-            "title": "TITRE ARTICLE #2",
-            "teaser": "PHRASE ACCROCHE #2",
+            "title": "Le déclin du développement web",
+            "teaser": "Face à l'ascension filgurante des CMS, plateformes de LOW-CODE, NO-CODE, assitants et agents IA.",
             "content": "CONTENU ARTICLE #2",
-            "imgAlt": "sandisk"
+            "imgAlt": "fitness"
         }
     ]
 }

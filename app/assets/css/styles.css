@@ -26,18 +26,21 @@ h1 {
     line-height: 1.1;
 }
 h2 {
-    font-size: 2.25rem;
+    font-size: 2.5rem;
 }
 h3 {
-    font-size: 1.125rem;
+    font-size: 2rem;
 }
 h4 {
-    font-size: 1.25rem;
-    margin: 0.5rem 0;
+    font-size: 1.5rem;
 }
 
-header a:hover {
+header a:hover, .change-col-at-hovering:hover {
     color: var(--primary);
+}
+
+.cursor-pointer-at-hovering {
+    cursor: pointer;
 }
 
 footer a {
@@ -49,7 +52,13 @@ footer a {
     h1 {
         font-size: 3.75rem;
     }
+    h2 {
+        font-size: 3.25rem;
+    }
+    h3 {
+        font-size: 2.75rem;
+    }
     h4 {
-        font-size: 1.5rem;
+        font-size: 2.25rem;
     }
 }
