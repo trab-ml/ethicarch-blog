@@ -2,9 +2,9 @@ import jsonArticles from "~/data/articles.json";
 import type { BasicArticleType, ArticleType } from "~/utils/types/article";
 import { useI18n } from "#imports";
 
-const aggregateArticlesData = (i18nArticles: BasicArticleType[] | []) => {
+const aggregateArticlesData = (i18nArticles: BasicArticleType[] | []) : ArticleType[] => {
     return jsonArticles.data.map((article, index) => {
-        return { ...i18nArticles[index], ...article };
+        return { ...i18nArticles[index], ...article } as ArticleType;
     });
 };
 

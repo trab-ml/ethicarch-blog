@@ -6,6 +6,6 @@ export interface BasicArticleType {
 }
 
 export interface ArticleType extends BasicArticleType {
-    createdAt: Date;
+    createdAt: string;
     imgUrl: string;
 }
