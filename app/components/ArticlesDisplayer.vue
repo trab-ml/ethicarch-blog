@@ -1,6 +1,6 @@
 <template>
     <div :class="boxStyle">
-        <ArticleFilters v-if="!lastArticles" />
+        <ArticleFilters v-if="!lastArticles" v-model="filters" />
         <section
             v-for="(article, index) in articleList"
             class="w-full flex flex-col my-8 border rounded-xl gap-2 sm:flex-row"
@@ -31,16 +31,27 @@
 </template>
 
 <script setup lang="ts">
-import { useArticles } from "~/composables/useArticles";
-import { formatDate } from "~/utils/formatDate";
-import { useI18n } from "#imports";
+import { type ArticleFilters } from "~/utils/types/article";
 
 const { boxStyle, lastArticles } = defineProps({
     boxStyle: String,
     lastArticles: Boolean,
 });
-
+const filters = defineModel<ArticleFilters>({
+    default: () => ({ search: "", sortByDate: true, resetFilters: false }),
+});
 const { $getLocale } = useI18n();
-
 const articleList = lastArticles ? useArticles().slice(-3) : useArticles();
+
+// console.log(filters.value);
+// computed(() => {
+//     console.log(filters.value);
+//     return filters.value.search != "" ? "SEARCHING..." : "NOTHING...";
+// });
+// watch(filters, (_oldFilters, newFilters) => {
+//     console.log(newFilters);
+// });
+// watchEffect((filters) => {
+//     console.log(filters);
+// })
 </script>

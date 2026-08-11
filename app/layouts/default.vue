@@ -38,9 +38,6 @@
 </template>
 
 <script setup lang="ts">
-import LanguageSwitcher from "~/components/LanguageSwitcher.vue";
-import { ref, onMounted, onUnmounted } from "vue";
-
 const headerNav = ref<HTMLElement | null>(null);
 
 const handleScroll = () => {

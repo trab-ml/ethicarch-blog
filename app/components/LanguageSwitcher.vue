@@ -16,8 +16,6 @@
 </template>
 
 <script setup>
-import { useNuxtApp } from "#imports";
-
 const { $getLocale, $switchLocale, $getLocales, $t } = useNuxtApp();
 </script>
 

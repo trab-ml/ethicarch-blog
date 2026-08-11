@@ -9,3 +9,9 @@ export interface ArticleType extends BasicArticleType {
     createdAt: string;
     imgUrl: string;
 }
+
+export interface ArticleFilters {
+    search: string;
+    sortByDate: boolean;
+    resetFilters: boolean;
+}
