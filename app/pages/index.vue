@@ -29,12 +29,11 @@
         <section>
             <h2>{{ $t("articleSection.title") }}</h2>
             <p>{{ $t("articleSection.description") }}</p>
-            <ArticleDisplayer box-style="my-4" :last-articles="true" />
+            <ArticlesDisplayer box-style="my-4" :last-articles="true" />
         </section>
     </main>
 </template>
 
 <script setup lang="ts">
 import letterBold from "~/assets/icons/letter-bold.png";
-import ArticleDisplayer from "~/components/ArticleDisplayer.vue";
 </script>

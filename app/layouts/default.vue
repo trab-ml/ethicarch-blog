@@ -9,7 +9,6 @@
             >
                 <NuxtLink to="/">{{ $t("header.home") }}</NuxtLink>
                 <NuxtLink to="/articles">{{ $t("header.articles") }}</NuxtLink>
-                <NuxtLink to="/about">{{ $t("header.about") }}</NuxtLink>
                 <LanguageSwitcher />
             </nav>
         </header>

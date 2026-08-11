@@ -1,5 +1,6 @@
 <template>
     <div :class="boxStyle">
+        <ArticleFilters v-if="!lastArticles" />
         <section
             v-for="(article, index) in articleList"
             class="w-full flex flex-col my-8 border rounded-xl gap-2 sm:flex-row"
@@ -38,6 +39,8 @@ const { boxStyle, lastArticles } = defineProps({
     boxStyle: String,
     lastArticles: Boolean,
 });
+
 const { $getLocale } = useI18n();
+
 const articleList = lastArticles ? useArticles().slice(-3) : useArticles();
 </script>

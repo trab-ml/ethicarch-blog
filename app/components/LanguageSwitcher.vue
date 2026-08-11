@@ -6,7 +6,7 @@
                 :key="locale.code"
                 :disabled="locale.code === $getLocale()"
                 @click="() => $switchLocale(locale.code)"
-                class="capitalize lang-btn"
+                class="px-[0.15rem] capitalize lang-btn"
                 :class="$getLocale() == locale.code ? 'current-lang' : ''"
             >
                 {{ $t(locale.code) }}
