@@ -43,7 +43,7 @@ const sortByDate = defineModel<string>("sortByDate", { required: true });
 const resetFilters = defineModel<boolean>("resetFilters", { required: false });
 
 const options = ref([
-    { text: $t("filters.sortByDate.mostRecent"), value: ASCENDING_SORT },
-    { text: $t("filters.sortByDate.lessRecent"), value: DESCENDING_SORT },
+    { text: $t("filters.sortByDate.mostRecent"), value: DESCENDING_SORT },
+    { text: $t("filters.sortByDate.lessRecent"), value: ASCENDING_SORT },
 ]);
 </script>

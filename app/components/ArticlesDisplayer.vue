@@ -1,6 +1,5 @@
 <template>
     <div :class="boxStyle">
-        <!-- <h2>{{ filtersConfig }}</h2> -->
         <ArticleFilters
             v-if="!lastArticles"
             v-model:search="search"
@@ -38,7 +37,7 @@
 
 <script setup lang="ts">
 import type { ArticleType } from "~/utils/types/article";
-import { ASCENDING_SORT } from "~/utils/types/global";
+import { DESCENDING_SORT } from "~/utils/types/global";
 
 const { boxStyle, lastArticles } = defineProps({
     boxStyle: String,
@@ -46,31 +45,22 @@ const { boxStyle, lastArticles } = defineProps({
 });
 
 const search = ref("");
-const sortByDate = ref(ASCENDING_SORT);
+const sortByDate = ref(DESCENDING_SORT);
 const resetFilters = ref(false);
 
 const { $getLocale } = useI18n();
 
 const articleList = lastArticles ? useArticles().slice(-3) : useArticles();
 
-// const filtersConfig = computed(() => {
-//     return {
-//         lookingFor: search.value,
-//         isAscSort: sortByDate.value === ASCENDING_SORT ? "yes" : "no",
-//         isReset: resetFilters.value === true ? "yes" : "no",
-//     };
-// });
-
 const sortedArticles = computed(() => {
-    if (resetFilters.value === true)
-        return articleList;
+    if (resetFilters.value === true) cleanUpFilters();
 
     let articles: ArticleType[] = articleList;
     if (search.value != "") {
         articles = sortByTitle(articleList);
     }
 
-    if (sortByDate.value === ASCENDING_SORT) {
+    if (sortByDate.value === DESCENDING_SORT) {
         articles = sortByCreationDate(articles, true);
     } else {
         articles = sortByCreationDate(articles, false);
@@ -83,13 +73,21 @@ const sortByTitle = (articles: ArticleType[]) => {
     return articles.filter((article) => article.title.includes(search.value));
 };
 
-const sortByCreationDate = (articles: ArticleType[], isByAsc: boolean) => {
+const sortByCreationDate = (articles: ArticleType[], isDesc: boolean) => {
     return articles.sort((art1, art2) => {
         const art1Date = new Date(art2.createdAt);
         const art2Date = new Date(art1.createdAt);
-
-        if (isByAsc) return art2Date > art1Date ? 1 : -1;
-        else return art2Date > art1Date ? -1 : 1;
+        if (isDesc) {
+            return art2Date > art1Date ? -1 : 1;
+        } else {
+            return art2Date > art1Date ? 1 : -1;
+        }
     });
+};
+
+const cleanUpFilters = () => {
+    search.value = "";
+    sortByDate.value = DESCENDING_SORT;
+    resetFilters.value = false;
 };
 </script>
