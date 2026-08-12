@@ -1,6 +1,12 @@
 <template>
     <div :class="boxStyle">
-        <ArticleFilters v-if="!lastArticles" v-model="filters" />
+        <h2>{{ filtersConfig }}</h2>
+        <ArticleFilters
+            v-if="!lastArticles"
+            v-model:search="search"
+            v-model:sortByDate="sortByDate"
+            v-model:resetFilters="resetFilters"
+        />
         <section
             v-for="(article, index) in articleList"
             class="w-full flex flex-col my-8 border rounded-xl gap-2 sm:flex-row"
@@ -31,27 +37,25 @@
 </template>
 
 <script setup lang="ts">
-import { type ArticleFilters } from "~/utils/types/article";
+import { ASCENDING_SORT } from "~/utils/types/global";
 
 const { boxStyle, lastArticles } = defineProps({
     boxStyle: String,
     lastArticles: Boolean,
 });
-const filters = defineModel<ArticleFilters>({
-    default: () => ({ search: "", sortByDate: true, resetFilters: false }),
-});
+
+const search = ref("");
+const sortByDate = ref(ASCENDING_SORT);
+const resetFilters = ref(false);
+
 const { $getLocale } = useI18n();
 const articleList = lastArticles ? useArticles().slice(-3) : useArticles();
 
-// console.log(filters.value);
-// computed(() => {
-//     console.log(filters.value);
-//     return filters.value.search != "" ? "SEARCHING..." : "NOTHING...";
-// });
-// watch(filters, (_oldFilters, newFilters) => {
-//     console.log(newFilters);
-// });
-// watchEffect((filters) => {
-//     console.log(filters);
-// })
+const filtersConfig = computed(() => {
+    return {
+        lookingFor: search.value,
+        isAscSort: sortByDate.value === ASCENDING_SORT ? "yes" : "no",
+        isReset: resetFilters.value === true ? "yes" : "no",
+    };
+});
 </script>

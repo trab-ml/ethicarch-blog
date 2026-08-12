@@ -5,8 +5,8 @@
         <div class="sm:w-2/5 md:w-3/5">
             <label for="Search">
                 <input
-                    v-model="filterConfig.search"
-                    placeholder="Dev Web..."
+                    v-model="search"
+                    :placeholder="$t('filters.search.placeholder')?.toString()"
                     class="w-full p-1 border border-black rounded-lg"
                 />
             </label>
@@ -14,7 +14,7 @@
 
         <div class="mt-1 sm:mt-0 md:w-2/5">
             <select
-                v-model="filterConfig.sortByDate"
+                v-model="sortByDate"
                 class="p-1 border border-black rounded-xl md:px-[0.15rem]"
             >
                 <option v-for="option in options" :value="option.value">
@@ -23,12 +23,9 @@
             </select>
 
             <button
-                title="Reset filters"
+                :title="$t('filters.resetFilters.infobull')?.toString()"
                 class="mx-1 px-2 text-red-600 border border-red-600 rounded hover:bg-black/20 md:ms-1 md:px-0 lg:px-2"
-                @click="
-                    () =>
-                        (filterConfig.resetFilters = !filterConfig.resetFilters)
-                "
+                @click="resetFilters = true"
             >
                 X
             </button>
@@ -37,15 +34,16 @@
 </template>
 
 <script setup lang="ts">
-import { type ArticleFilters } from "~/utils/types/article";
+import { ASCENDING_SORT, DESCENDING_SORT } from "~/utils/types/global";
+
 const { $t } = useI18n();
 
-const options = ref([
-    { text: $t("sortByDate.mostRecent"), value: true },
-    { text: $t("sortByDate.lessRecent"), value: false },
-]);
+const search = defineModel<string>("search", { required: true });
+const sortByDate = defineModel<string>("sortByDate", { required: true });
+const resetFilters = defineModel<boolean>("resetFilters", { required: false });
 
-const filterConfig = defineModel<ArticleFilters>({
-    required: true,
-});
+const options = ref([
+    { text: $t("filters.sortByDate.mostRecent"), value: ASCENDING_SORT },
+    { text: $t("filters.sortByDate.lessRecent"), value: DESCENDING_SORT },
+]);
 </script>

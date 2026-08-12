@@ -1,7 +1,15 @@
 {
     "title": "Articles",
-    "sortByDate": {
-        "mostRecent": "Du plus récent",
-        "lessRecent": "Du plus ancien"
+    "filters": {
+        "search": {
+            "placeholder": "Dev Web"
+        },
+        "sortByDate": {
+            "mostRecent": "Du plus récent",
+            "lessRecent": "Du plus ancien"
+        },
+        "resetFilters": {
+            "infobull": "Rénitialiser les filtres"
+        }
     }
 }
