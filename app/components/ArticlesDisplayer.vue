@@ -1,6 +1,6 @@
 <template>
     <div :class="boxStyle">
-        <h2>{{ filtersConfig }}</h2>
+        <!-- <h2>{{ filtersConfig }}</h2> -->
         <ArticleFilters
             v-if="!lastArticles"
             v-model:search="search"
@@ -8,7 +8,7 @@
             v-model:resetFilters="resetFilters"
         />
         <section
-            v-for="(article, index) in articleList"
+            v-for="(article, index) in sortedArticles"
             class="w-full flex flex-col my-8 border rounded-xl gap-2 sm:flex-row"
         >
             <div class="sm:w-1/2">
@@ -37,6 +37,7 @@
 </template>
 
 <script setup lang="ts">
+import type { ArticleType } from "~/utils/types/article";
 import { ASCENDING_SORT } from "~/utils/types/global";
 
 const { boxStyle, lastArticles } = defineProps({
@@ -49,13 +50,46 @@ const sortByDate = ref(ASCENDING_SORT);
 const resetFilters = ref(false);
 
 const { $getLocale } = useI18n();
+
 const articleList = lastArticles ? useArticles().slice(-3) : useArticles();
 
-const filtersConfig = computed(() => {
-    return {
-        lookingFor: search.value,
-        isAscSort: sortByDate.value === ASCENDING_SORT ? "yes" : "no",
-        isReset: resetFilters.value === true ? "yes" : "no",
-    };
+// const filtersConfig = computed(() => {
+//     return {
+//         lookingFor: search.value,
+//         isAscSort: sortByDate.value === ASCENDING_SORT ? "yes" : "no",
+//         isReset: resetFilters.value === true ? "yes" : "no",
+//     };
+// });
+
+const sortedArticles = computed(() => {
+    if (resetFilters.value === true)
+        return articleList;
+
+    let articles: ArticleType[] = articleList;
+    if (search.value != "") {
+        articles = sortByTitle(articleList);
+    }
+
+    if (sortByDate.value === ASCENDING_SORT) {
+        articles = sortByCreationDate(articles, true);
+    } else {
+        articles = sortByCreationDate(articles, false);
+    }
+
+    return articles;
 });
+
+const sortByTitle = (articles: ArticleType[]) => {
+    return articles.filter((article) => article.title.includes(search.value));
+};
+
+const sortByCreationDate = (articles: ArticleType[], isByAsc: boolean) => {
+    return articles.sort((art1, art2) => {
+        const art1Date = new Date(art2.createdAt);
+        const art2Date = new Date(art1.createdAt);
+
+        if (isByAsc) return art2Date > art1Date ? 1 : -1;
+        else return art2Date > art1Date ? -1 : 1;
+    });
+};
 </script>
