@@ -11,21 +11,27 @@
             class="w-full flex flex-col my-8 border rounded-xl gap-2 sm:flex-row"
         >
             <div class="sm:w-1/2">
-                <img
-                    :src="`imgs/${article.imgUrl}`"
-                    :alt="article.imgAlt"
-                    class="border-4 sm:border-8 border-black/40 rounded-xl"
-                    :class="
-                        index % 2 == 0
-                            ? 'skew-x-3 -skew-y-3'
-                            : '-skew-x-3 skew-y-2'
-                    "
-                />
+                <a :href="`/posts/${article.id}`">
+                    <img
+                        :src="`imgs/${article.imgUrl}`"
+                        :alt="article.imgAlt"
+                        class="border-4 sm:border-8 border-black/40 rounded-xl cursor-pointer-at-hovering hover:border-[--primary]"
+                        :class="
+                            index % 2 == 0
+                                ? 'skew-x-3 -skew-y-3'
+                                : '-skew-x-3 skew-y-2'
+                        "
+                    />
+                </a>
             </div>
             <section class="sm:w-1/2">
-                <h3 class="change-col-at-hovering cursor-pointer-at-hovering">
-                    {{ article.title }}
-                </h3>
+                <a :href="`/posts/${article.id}`"
+                    ><h3
+                        class="change-col-at-hovering cursor-pointer-at-hovering"
+                    >
+                        {{ article.title }}
+                    </h3></a
+                >
                 <p>{{ article.teaser }}</p>
                 <span class="text-black/80">{{
                     formatDate(article.createdAt, $getLocale())

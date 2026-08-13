@@ -1,0 +1,10 @@
+.custom-alert {
+    display: block;
+    width: fit-content;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    color: #fff;
+    background: #000;
+    border: 1px solid black;
+    border-radius: 10px;
+}

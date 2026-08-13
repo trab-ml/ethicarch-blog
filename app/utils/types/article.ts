@@ -8,6 +8,7 @@ export interface BasicArticleType {
 }
 
 export interface ArticleType extends BasicArticleType {
+    id: string;
     createdAt: string;
     imgUrl: string;
 }

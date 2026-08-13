@@ -7,6 +7,15 @@
     --mono: ui-monospace, Consolas, monospace;
 }
 
+.router-link-active {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.router-link-exact-active {
+    color: var(--primary);
+}
+
 main {
     margin-top: 1rem;
 }
@@ -35,7 +44,8 @@ h4 {
     font-size: 1.5rem;
 }
 
-header a:hover, .change-col-at-hovering:hover {
+header a:hover,
+.change-col-at-hovering:hover {
     color: var(--primary);
 }
 

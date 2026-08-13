@@ -11,7 +11,10 @@
                 />
             </div>
             <section class="sm:w-1/2">
-                <h1 class="change-col-at-hovering cursor-pointer-at-hovering">
+                <h1
+                    class="change-col-at-hovering cursor-pointer-at-hovering"
+                    @click="copyToClipboard(currentFullPath)"
+                >
                     {{ article.title }}
                 </h1>
                 <p>{{ article.teaser }}</p>
@@ -39,6 +42,7 @@
 <script setup lang="ts">
 const { $t } = useI18n();
 const route = useRoute();
+const currentFullPath = import.meta.env.VITE_BASE_URL + route.fullPath;
 
 const findById = () => {
     try {
@@ -51,3 +55,7 @@ const findById = () => {
 };
 const article = findById();
 </script>
+
+<style lang="css">
+@import "~/assets/css/alert.css";
+</style>
