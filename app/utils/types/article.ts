@@ -1,7 +1,9 @@
+type Section = { subtitle: string; items: string[] };
+
 export interface BasicArticleType {
     title: string;
     teaser: string;
-    content: string;
+    content: Section[];
     imgAlt: string;
 }
 

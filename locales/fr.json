@@ -18,31 +18,96 @@
         {
             "title": "Qu'est ce que le développement web ?",
             "teaser": "Développeur.euse web, frontend, backend ou encore full stack des facettes du même métier ?",
-            "content": "CONTENU ARTICLE #1",
+            "content": [
+                {
+                    "subtitle": "Un métier qui évolue aussi vite que un aspirateur qui aspire l'air",
+                    "items": [
+                        "Développeur",
+                        "Développeur frontend",
+                        "Développeur backend",
+                        "Développeur fullstack",
+                        "Développeur techno sexy"
+                    ]
+                }
+            ],
             "imgAlt": "fitness"
         },
         {
             "title": "Le déclin du développement web.",
             "teaser": "Face à l'ascension fulgurante des CMS, plateformes de LOW-CODE, NO-CODE, assitants et agents IA.",
-            "content": "CONTENU ARTICLE #2",
+            "content": [
+                {
+                    "subtitle": "First section of #2",
+                    "items": [
+                        "Développeur",
+                        "Développeur frontend",
+                        "Développeur backend",
+                        "Développeur fullstack",
+                        "Développeur techno sexy"
+                    ]
+                },
+                {
+                    "subtitle": "Second section of #2",
+                    "items": [
+                        "Développeur",
+                        "Développeur frontend",
+                        "Développeur backend",
+                        "Développeur fullstack",
+                        "Développeur techno sexy"
+                    ]
+                }
+            ],
             "imgAlt": "fitness"
         },
         {
             "title": "Développeur freelance ou agence web ?",
             "teaser": "Tu ambitionnes de concurrencer Amazon avec ton projet extrêmement innovateur et pensé jusque dans les moindres détails.",
-            "content": "CONTENU ARTICLE #3",
+            "content": [
+                {
+                    "subtitle": "First section of #3",
+                    "items": [
+                        "Développeur",
+                        "Développeur frontend",
+                        "Développeur backend",
+                        "Développeur fullstack",
+                        "Développeur techno sexy"
+                    ]
+                }
+            ],
             "imgAlt": "fitness"
         },
         {
             "title": "Des diplômés qui ne feront pas carrière !",
             "teaser": "Une dégringolade du recrutement des nouveaux diplômés, d'autre part des géants de la tech qui battent les records de leur CA.",
-            "content": "CONTENU ARTICLE #4",
+            "content": [
+                {
+                    "subtitle": "First section of #4",
+                    "items": [
+                        "Développeur",
+                        "Développeur frontend",
+                        "Développeur backend",
+                        "Développeur fullstack",
+                        "Développeur techno sexy"
+                    ]
+                }
+            ],
             "imgAlt": "fitness"
         },
         {
             "title": "À qui profite l'innondation préméditée du marché de l'informatique ?",
             "teaser": "Développeur full stack en 6 mois, c'est désormais possible grâce à des écoles en ligne.",
-            "content": "CONTENU ARTICLE #5",
+            "content": [
+                {
+                    "subtitle": "First section of #5",
+                    "items": [
+                        "Développeur",
+                        "Développeur frontend",
+                        "Développeur backend",
+                        "Développeur fullstack",
+                        "Développeur techno sexy"
+                    ]
+                }
+            ],
             "imgAlt": "fitness"
         }
     ]
