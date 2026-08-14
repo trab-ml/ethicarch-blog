@@ -44,16 +44,16 @@ const { $t } = useI18n();
 const route = useRoute();
 const currentFullPath = import.meta.env.VITE_BASE_URL + route.fullPath;
 
-const findById = () => {
+const { articles } = useArticles();
+const article = computed(() => {
     try {
         if (!route.params.id) return "KO";
-        const currentId: number = parseInt(route.params.id as string);
-        return useArticles()[currentId - 1];
-    } catch (parsingErr) {
+        const currentId = parseInt(route.params.id as string);
+        return articles.value[currentId - 1] ?? "KO";
+    } catch {
         return "KO";
     }
-};
-const article = findById();
+});
 </script>
 
 <style lang="css">

@@ -56,23 +56,22 @@ const resetFilters = ref(false);
 
 const { $getLocale } = useI18n();
 
-const articleList = lastArticles ? useArticles().slice(-3) : useArticles();
+const { articles } = useArticles();
+
+const baseArticles = computed(() =>
+    lastArticles ? articles.value.slice(-3) : articles.value,
+);
 
 const sortedArticles = computed(() => {
-    if (resetFilters.value === true) cleanUpFilters();
-
-    let articles: ArticleType[] = articleList;
+    let list: ArticleType[] = baseArticles.value;
     if (search.value != "") {
-        articles = sortByTitle(articleList);
+        list = sortByTitle(list);
     }
+    return sortByCreationDate(list, sortByDate.value === DESCENDING_SORT);
+});
 
-    if (sortByDate.value === DESCENDING_SORT) {
-        articles = sortByCreationDate(articles, true);
-    } else {
-        articles = sortByCreationDate(articles, false);
-    }
-
-    return articles;
+watch(resetFilters, (value) => {
+    if (value === true) cleanUpFilters();
 });
 
 const sortByTitle = (articles: ArticleType[]) => {
@@ -80,14 +79,16 @@ const sortByTitle = (articles: ArticleType[]) => {
 };
 
 const sortByCreationDate = (articles: ArticleType[], isDesc: boolean) => {
-    return articles.sort((art1, art2) => {
+    return [...articles].sort((art1, art2) => {
         const art1Date = new Date(art2.createdAt);
         const art2Date = new Date(art1.createdAt);
-        if (isDesc) {
-            return art2Date > art1Date ? -1 : 1;
-        } else {
-            return art2Date > art1Date ? 1 : -1;
-        }
+        return isDesc
+            ? art2Date > art1Date
+                ? -1
+                : 1
+            : art2Date > art1Date
+              ? 1
+              : -1;
     });
 };
 

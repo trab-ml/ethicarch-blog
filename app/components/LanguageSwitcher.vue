@@ -4,19 +4,36 @@
             <button
                 v-for="locale in $getLocales()"
                 :key="locale.code"
-                :disabled="locale.code === $getLocale()"
-                @click="() => $switchLocale(locale.code)"
+                :disabled="locale.code === storedLang"
+                @click="
+                    () => {
+                        storedLang = locale.code;
+                        switchLanguage();
+                    }
+                "
                 class="px-[0.15rem] capitalize lang-btn"
-                :class="$getLocale() == locale.code ? 'current-lang' : ''"
+                :class="locale.code === storedLang ? 'current-lang' : ''"
             >
-                {{ $t(locale.code) }}
+                {{ locale.code }}
             </button>
         </div>
     </div>
 </template>
 
-<script setup>
-const { $getLocale, $switchLocale, $getLocales, $t } = useNuxtApp();
+<script setup lang="ts">
+const { $getLocale, $switchLocale, $getLocales } = useNuxtApp();
+
+const storedLang = ref();
+
+const switchLanguage = () => {
+    $switchLocale(storedLang.value);
+    localStorage.setItem("lang", storedLang.value);
+};
+
+onMounted(() => {
+    storedLang.value = localStorage.getItem("lang") ?? $getLocale();
+    $switchLocale(storedLang.value);
+});
 </script>
 
 <style scoped>
