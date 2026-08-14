@@ -20,7 +20,7 @@
             "teaser": "Développeur.euse web, frontend, backend ou encore full stack des facettes du même métier ?",
             "content": [
                 {
-                    "subtitle": "Un métier qui évolue aussi vite que un aspirateur qui aspire l'air",
+                    "subtitle": "#1 Un métier qui évolue aussi vite que un aspirateur qui aspire l'air",
                     "items": [
                         "Développeur",
                         "Développeur frontend",
@@ -30,41 +30,14 @@
                     ]
                 }
             ],
-            "imgAlt": "fitness"
-        },
-        {
-            "title": "Le déclin du développement web.",
-            "teaser": "Face à l'ascension fulgurante des CMS, plateformes de LOW-CODE, NO-CODE, assitants et agents IA.",
-            "content": [
-                {
-                    "subtitle": "First section of #2",
-                    "items": [
-                        "Développeur",
-                        "Développeur frontend",
-                        "Développeur backend",
-                        "Développeur fullstack",
-                        "Développeur techno sexy"
-                    ]
-                },
-                {
-                    "subtitle": "Second section of #2",
-                    "items": [
-                        "Développeur",
-                        "Développeur frontend",
-                        "Développeur backend",
-                        "Développeur fullstack",
-                        "Développeur techno sexy"
-                    ]
-                }
-            ],
-            "imgAlt": "fitness"
+            "imgAlt": "appli web"
         },
         {
             "title": "Développeur freelance ou agence web ?",
             "teaser": "Tu ambitionnes de concurrencer Amazon avec ton projet extrêmement innovateur et pensé jusque dans les moindres détails.",
             "content": [
                 {
-                    "subtitle": "First section of #3",
+                    "subtitle": "#2 Subtitle",
                     "items": [
                         "Développeur",
                         "Développeur frontend",
@@ -74,41 +47,7 @@
                     ]
                 }
             ],
-            "imgAlt": "fitness"
-        },
-        {
-            "title": "Des diplômés qui ne feront pas carrière !",
-            "teaser": "Une dégringolade du recrutement des nouveaux diplômés, d'autre part des géants de la tech qui battent les records de leur CA.",
-            "content": [
-                {
-                    "subtitle": "First section of #4",
-                    "items": [
-                        "Développeur",
-                        "Développeur frontend",
-                        "Développeur backend",
-                        "Développeur fullstack",
-                        "Développeur techno sexy"
-                    ]
-                }
-            ],
-            "imgAlt": "fitness"
-        },
-        {
-            "title": "Innondation préméditée du marché ?",
-            "teaser": "Développeur full stack en 6 mois, c'est désormais possible grâce à des écoles en ligne.",
-            "content": [
-                {
-                    "subtitle": "First section of #5",
-                    "items": [
-                        "Développeur",
-                        "Développeur frontend",
-                        "Développeur backend",
-                        "Développeur fullstack",
-                        "Développeur techno sexy"
-                    ]
-                }
-            ],
-            "imgAlt": "fitness"
+            "imgAlt": "codage sur pc"
         }
     ]
 }

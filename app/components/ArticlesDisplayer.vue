@@ -13,7 +13,7 @@
             <div class="sm:w-1/2">
                 <a :href="`/posts/${article.id}`">
                     <img
-                        :src="`imgs/${article.imgUrl}`"
+                        :src="`/imgs/${article.imgUrl}`"
                         :alt="article.imgAlt"
                         class="border-4 sm:border-8 border-black/40 rounded-xl cursor-pointer-at-hovering hover:border-[--primary]"
                         :class="

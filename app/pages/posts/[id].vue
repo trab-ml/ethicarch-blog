@@ -35,7 +35,7 @@
         </section>
     </main>
     <main v-else>
-        {{ $t("posts.notFound") }}
+        {{ $t("notFound") }}
     </main>
 </template>
 

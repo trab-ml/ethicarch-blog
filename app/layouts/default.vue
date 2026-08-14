@@ -21,15 +21,15 @@
             >
                 <li>
                     <span>{{ $t("footer.author.prename") }}</span>
-                    <a href="https://ethicalarchitect.fr/" target="__blank">{{
-                        $t("footer.author.name")
+                    <a :href="REDIRECTIONS.ethicarch.home" target="__blank">{{
+                        REDIRECTIONS.ethicarch.name
                     }}</a>
                 </li>
                 <li>|</li>
                 <li>
                     <span>{{ $t("footer.support.prename") }}</span>
-                    <a href="https://nuxt.com/" target="__blank">{{
-                        $t("footer.support.name")
+                    <a :href="REDIRECTIONS.nuxt.home" target="__blank">{{
+                        REDIRECTIONS.nuxt.name
                     }}</a>
                 </li>
             </ul>

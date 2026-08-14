@@ -4,16 +4,16 @@
         <p>
             {{ $t("description") }}
             <a
-                href="https://ethicalarchitect.fr/"
+                :href="REDIRECTIONS.ethicarch.home"
                 target="__blank"
                 class="underline"
-                >{{ $t("rootWebsite") }}</a
+                >{{ REDIRECTIONS.ethicarch.name }}</a
             >
         </p>
-        <p class="flex items-center">
+        <p class="flex items-center" :title="$t('infobull') as string">
             <span>{{ $t("callToAction") }}</span>
             <a
-                href="https://ethicalarchitect.fr/contact"
+                :href="REDIRECTIONS.ethicarch.contact"
                 class="hover:text-blue-600 hover:cursor"
                 target="__blank"
             >

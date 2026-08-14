@@ -1,1 +1,15 @@
-{}
+{
+    "title": "Articles",
+    "filters": {
+        "search": {
+            "placeholder": "Web Development"
+        },
+        "sortByDate": {
+            "mostRecent": "Most recent",
+            "lessRecent": "Oldest"
+        },
+        "resetFilters": {
+            "infobull": "Reset filters"
+        }
+    }
+}

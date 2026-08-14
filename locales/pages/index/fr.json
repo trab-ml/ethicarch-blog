@@ -1,8 +1,7 @@
 {
     "title": "Accueil",
     "description": "Ce site blog ambitionne de vous partager la vision de",
-    "rootWebsite": "Ethicarch.",
-    "callToAction": "Faites-moi part de vos idées (améliorations, désaccords...)",
+    "callToAction": "Faites-moi part de vos idées !",
     "infobull": "Donnez-moi de bonnes raisons de penser ce que vous pensez. Benjamin RUSSEL.",
     "articleSection": {
         "title": "Articles récents",
