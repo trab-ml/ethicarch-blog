@@ -1,7 +1,13 @@
 <template>
-    <main v-if="article != 'KO' && article != undefined">
-        <section
-            class="w-full flex flex-col my-8 border rounded-xl gap-2 sm:flex-row"
+    <main v-if="article != ERROR_ID_NOT_FOUND && article != undefined">
+        <h1
+            class="change-col-at-hovering cursor-pointer-at-hovering"
+            @click="copyToClipboard(currentFullPath)"
+        >
+            {{ article.title }}
+        </h1>
+        <div
+            class="w-full flex flex-col items-center my-4 border rounded-xl gap-2 sm:flex-row"
         >
             <div class="sm:w-1/2">
                 <img
@@ -11,51 +17,62 @@
                 />
             </div>
             <section class="sm:w-1/2">
-                <h1
-                    class="change-col-at-hovering cursor-pointer-at-hovering"
-                    @click="copyToClipboard(currentFullPath)"
-                >
-                    {{ article.title }}
-                </h1>
-                <p>{{ article.teaser }}</p>
+                <p class="md:font-thin md:text-3xl">{{ article.teaser }}</p>
                 <span class="text-black/80">{{
                     formatDate(article.createdAt, $getLocale())
                 }}</span>
             </section>
-        </section>
+        </div>
         <section v-for="(section, i) in article.content" :key="i" class="mb-8">
-            <h2 class="font-semibold mb-3 border-b pb-1">
+            <h2 class="mb-3 border-b pb-1">
                 {{ section.subtitle }}
             </h2>
             <div class="space-y-1 text-(--tertiary)">
-                <p v-for="(line, j) in section.items" :key="j">
+                <p
+                    class="md:font-thin md:text-3xl"
+                    v-for="(line, j) in section.items"
+                    :key="j"
+                >
                     {{ line }}
                 </p>
             </div>
         </section>
     </main>
-    <main v-else>
-        {{ $t("notFound") }}
+    <main v-else class="h-96 flex justify-center items-center my-12">
+        <section class="h-fit block text-center">
+            <h1 class="text-gray-900">
+                {{ $t("notFound") }}
+            </h1>
+            <NuxtLink
+                :to="ROUTES.HOME"
+                class="text-xl text-(--primary) underline underline-offset-4 change-col-at-hovering"
+                >{{ $t("backToHome") }}</NuxtLink
+            >
+        </section>
     </main>
 </template>
 
 <script setup lang="ts">
+import { ROUTES } from "~/utils/routes";
+
 const { $t } = useI18n();
 const route = useRoute();
 const currentFullPath = import.meta.env.VITE_BASE_URL + route.fullPath;
 
+const ERROR_ID_NOT_FOUND = "UNKNOW_ID";
+
 const { articles } = useArticles();
 const article = computed(() => {
     try {
-        if (!route.params.id) return "KO";
+        if (!route.params.id) return ERROR_ID_NOT_FOUND;
         const currentId = parseInt(route.params.id as string);
-        return articles.value[currentId - 1] ?? "KO";
+        return articles.value[currentId - 1] ?? ERROR_ID_NOT_FOUND;
     } catch {
-        return "KO";
+        return ERROR_ID_NOT_FOUND;
     }
 });
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 @import "~/assets/css/alert.css";
 </style>

@@ -6,7 +6,7 @@
             <a
                 :href="REDIRECTIONS.ethicarch.home"
                 target="__blank"
-                class="underline"
+                class="underline underline-offset-4"
                 >{{ REDIRECTIONS.ethicarch.name }}</a
             >
         </p>

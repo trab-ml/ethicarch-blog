@@ -7,8 +7,8 @@
                 ref="headerNav"
                 class="flex justify-center gap-2 mt-3 p-2 border-2 border-black/60 rounded-xl"
             >
-                <NuxtLink to="/">{{ $t("header.home") }}</NuxtLink>
-                <NuxtLink to="/articles">{{ $t("header.articles") }}</NuxtLink>
+                <NuxtLink :to="ROUTES.HOME">{{ $t("header.home") }}</NuxtLink>
+                <NuxtLink :to="ROUTES.ARTICLES">{{ $t("header.articles") }}</NuxtLink>
                 <LanguageSwitcher />
             </nav>
         </header>
@@ -38,6 +38,8 @@
 </template>
 
 <script setup lang="ts">
+import { ROUTES } from '~/utils/routes';
+
 const headerNav = ref<HTMLElement | null>(null);
 
 const handleScroll = () => {

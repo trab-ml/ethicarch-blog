@@ -1,3 +1,4 @@
 {
-    "notFound": "Article not found"
+    "notFound": "Article not found !",
+    "backToHome": "Go back to Home Page."
 }
