@@ -49,5 +49,8 @@
             ],
             "imgAlt": "coding on PC"
         }
-    ]
+    ],
+    "article": {
+        "linkToThatQuote": " # Link to that paragraph"
+    }
 }

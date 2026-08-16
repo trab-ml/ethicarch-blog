@@ -8,7 +8,7 @@
         />
         <section
             v-for="(article, index) in sortedArticles"
-            class="w-full flex flex-col my-8 border rounded-xl gap-2 sm:flex-row"
+            class="w-full flex flex-col sm:items-center my-8 border rounded-xl gap-2 sm:flex-row article-box"
         >
             <div class="sm:w-1/2">
                 <a :href="`/posts/${article.id}`">
@@ -24,7 +24,7 @@
                     />
                 </a>
             </div>
-            <section class="sm:w-1/2">
+            <section class="text-[1rem] sm:w-1/2 lg:text-[1.2rem]">
                 <a :href="`/posts/${article.id}`"
                     ><h3
                         class="change-col-at-hovering cursor-pointer-at-hovering"
@@ -32,10 +32,12 @@
                         {{ article.title }}
                     </h3></a
                 >
-                <p>{{ article.teaser }}</p>
-                <span class="text-black/80">{{
-                    formatDate(article.createdAt, $getLocale())
-                }}</span>
+                <div>
+                    <p>{{ article.teaser }}</p>
+                    <span class="text-black/80">{{
+                        formatDate(article.createdAt, $getLocale())
+                    }}</span>
+                </div>
             </section>
         </section>
     </div>

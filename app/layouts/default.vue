@@ -2,10 +2,10 @@
     <div
         class="relative w-60 min-h-screen flex flex-col mx-auto text-sm sm:text-xl sm:w-3/5"
     >
-        <header class="fixed w-60 mx-auto bg-transparent sm:w-3/5 z-40">
+        <header class="fixed w-60 mx-auto sm:w-3/5 z-40">
             <nav
                 ref="headerNav"
-                class="flex justify-center gap-2 mt-3 p-2 border-2 border-black/60 rounded-xl"
+                class="flex justify-center gap-2 mt-3 p-2 bg-transparent border-2 border-black/60 rounded-xl"
             >
                 <NuxtLink :to="ROUTES.HOME">{{ $t("header.home") }}</NuxtLink>
                 <NuxtLink :to="ROUTES.ARTICLES">{{ $t("header.articles") }}</NuxtLink>

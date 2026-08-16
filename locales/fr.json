@@ -20,7 +20,7 @@
             "teaser": "Développeur.euse web, frontend, backend ou encore full stack des facettes du même métier ?",
             "content": [
                 {
-                    "subtitle": "#1 Un métier qui évolue aussi vite que un aspirateur qui aspire l'air",
+                    "subtitle": "Un métier qui évolue aussi vite que un aspirateur qui aspire l'air",
                     "items": [
                         "Développeur",
                         "Développeur frontend",
@@ -37,7 +37,7 @@
             "teaser": "Tu ambitionnes de concurrencer Amazon avec ton projet extrêmement innovateur et pensé jusque dans les moindres détails.",
             "content": [
                 {
-                    "subtitle": "#2 Subtitle",
+                    "subtitle": "Subtitle",
                     "items": [
                         "Développeur",
                         "Développeur frontend",
@@ -49,5 +49,12 @@
             ],
             "imgAlt": "codage sur pc"
         }
-    ]
+    ],
+    "article": {
+        "linkToThatQuote": " # Lien vers ce paragraphe"
+    },
+    "alerts": {
+        "copySuccess": "Texte copié avec succès !",
+        "copyError": "Erreur lors de la copie du texte !"
+    }
 }

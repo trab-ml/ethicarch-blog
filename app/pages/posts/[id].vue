@@ -25,7 +25,16 @@
         </div>
         <section v-for="(section, i) in article.content" :key="i" class="mb-8">
             <h2 class="mb-3 border-b pb-1">
-                {{ section.subtitle }}
+                <span>{{ section.subtitle }}</span>
+                <span
+                    :id="`${article.id}-${i}`"
+                    @click="
+                        copyToClipboard(`${currentFullPath}#${article.id}-${i}`)
+                    "
+                    class="text-[2rem] font-light no-underline change-col-at-hovering cursor-pointer-at-hovering"
+                >
+                    {{ $t("article.linkToThatQuote") }}
+                </span>
             </h2>
             <div class="space-y-1 text-(--tertiary)">
                 <p
@@ -73,6 +82,6 @@ const article = computed(() => {
 });
 </script>
 
-<style lang="css" scoped>
+<style lang="css">
 @import "~/assets/css/alert.css";
 </style>

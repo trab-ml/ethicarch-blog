@@ -5,5 +5,5 @@ export const createAlert = (text: string) => {
     document.body.parentNode?.prepend(alertBox);
     setTimeout(() => {
         alertBox.remove();
-    }, 1000);
+    }, 1200);
 };
