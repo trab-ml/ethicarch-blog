@@ -6,7 +6,7 @@
             <label for="Search">
                 <input
                     v-model="search"
-                    :placeholder="$t('filters.search.placeholder')?.toString()"
+                    :placeholder="t('filters.search.placeholder')?.toString()"
                     class="w-full p-1 border border-black rounded-lg"
                 />
             </label>
@@ -23,7 +23,7 @@
             </select>
 
             <button
-                :title="$t('filters.resetFilters.infobull')?.toString()"
+                :title="t('filters.resetFilters.infobull')?.toString()"
                 class="mx-1 px-2 text-red-600 border border-red-600 rounded hover:bg-black/20 md:ms-1 md:px-0 lg:px-2"
                 @click="resetFilters = true"
             >
@@ -36,14 +36,14 @@
 <script setup lang="ts">
 import { ASCENDING_SORT, DESCENDING_SORT } from "~/utils/types/global";
 
-const { $t } = useI18n();
+const { t } = useI18n();
 
 const search = defineModel<string>("search", { required: true });
 const sortByDate = defineModel<string>("sortByDate", { required: true });
 const resetFilters = defineModel<boolean>("resetFilters", { required: false });
 
 const options = ref([
-    { text: $t("filters.sortByDate.mostRecent"), value: DESCENDING_SORT },
-    { text: $t("filters.sortByDate.lessRecent"), value: ASCENDING_SORT },
+    { text: t("filters.sortByDate.mostRecent"), value: DESCENDING_SORT },
+    { text: t("filters.sortByDate.lessRecent"), value: ASCENDING_SORT },
 ]);
 </script>

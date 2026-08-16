@@ -33,7 +33,7 @@
                     "
                     class="text-[2rem] font-light no-underline change-col-at-hovering cursor-pointer-at-hovering"
                 >
-                    {{ $t("article.linkToThatQuote") }}
+                    {{ t("article.linkToThatQuote") }}
                 </span>
             </h2>
             <div class="space-y-1 text-(--tertiary)">
@@ -50,12 +50,12 @@
     <main v-else class="h-96 flex justify-center items-center my-12">
         <section class="h-fit block text-center">
             <h1 class="text-gray-900">
-                {{ $t("notFound") }}
+                {{ t("notFound") }}
             </h1>
             <NuxtLink
                 :to="ROUTES.HOME"
                 class="text-xl text-(--primary) underline underline-offset-4 change-col-at-hovering"
-                >{{ $t("backToHome") }}</NuxtLink
+                >{{ t("backToHome") }}</NuxtLink
             >
         </section>
     </main>
@@ -64,21 +64,35 @@
 <script setup lang="ts">
 import { ROUTES } from "~/utils/routes";
 
-const { $t } = useI18n();
+const { t } = useI18n();
 const route = useRoute();
 const currentFullPath = import.meta.env.VITE_BASE_URL + route.fullPath;
-
 const ERROR_ID_NOT_FOUND = "UNKNOW_ID";
 
 const { articles } = useArticles();
 const article = computed(() => {
-    try {
-        if (!route.params.id) return ERROR_ID_NOT_FOUND;
-        const currentId = parseInt(route.params.id as string);
-        return articles.value[currentId - 1] ?? ERROR_ID_NOT_FOUND;
-    } catch {
-        return ERROR_ID_NOT_FOUND;
-    }
+    const currentId = Number(route.params.id);
+    if (!Number.isInteger(currentId)) return ERROR_ID_NOT_FOUND;
+    return (
+        articles.value.find((a) => a.id === currentId.toString()) ??
+        ERROR_ID_NOT_FOUND
+    );
+});
+
+const seoTitle = (
+    article.value !== ERROR_ID_NOT_FOUND ? article.value.title : t("notFound")
+) as string;
+const seoDesc = (
+    article.value !== ERROR_ID_NOT_FOUND
+        ? article.value.content[0]?.subtitle
+        : t("notFound")
+) as string;
+
+useSeoMeta({
+    title: () => seoTitle,
+    description: () => seoDesc,
+    ogTitle: () => seoTitle,
+    ogDescription: () => seoDesc,
 });
 </script>
 

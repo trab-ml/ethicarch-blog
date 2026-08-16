@@ -52,5 +52,9 @@
     ],
     "article": {
         "linkToThatQuote": " # Link to that paragraph"
+    },
+    "seo": {
+        "title": "A blog sharing the Ethicarch vision",
+        "description": "Through articles focusing broadly on application development and the tech industry, I aim to share my perspective with you."
     }
 }

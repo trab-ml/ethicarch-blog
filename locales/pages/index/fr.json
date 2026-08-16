@@ -6,5 +6,9 @@
     "articleSection": {
         "title": "Articles récents",
         "description": "Mes derniers articles sur le développement d'applications et l'industrie de la tech."
+    },
+    "seo": {
+        "title": "Site blog pour vous partager la vision de Ethicarch",
+        "description": "À travers des articles portant globalement sur le développement d'applications et l'industrie de la tech, je tenterai vous exposer mon point de vue."
     }
 }

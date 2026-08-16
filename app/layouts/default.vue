@@ -8,7 +8,9 @@
                 class="flex justify-center gap-2 mt-3 p-2 bg-transparent border-2 border-black/60 rounded-xl"
             >
                 <NuxtLink :to="ROUTES.HOME">{{ $t("header.home") }}</NuxtLink>
-                <NuxtLink :to="ROUTES.ARTICLES">{{ $t("header.articles") }}</NuxtLink>
+                <NuxtLink :to="ROUTES.ARTICLES">{{
+                    $t("header.articles")
+                }}</NuxtLink>
                 <LanguageSwitcher />
             </nav>
         </header>
@@ -38,9 +40,39 @@
 </template>
 
 <script setup lang="ts">
-import { ROUTES } from '~/utils/routes';
+import { ROUTES } from "~/utils/routes";
 
 const headerNav = ref<HTMLElement | null>(null);
+const { $t } = useI18n();
+const seoTitle = () => $t("seo.title") as string;
+const seoDescription = () => $t("seo.description") as string;
+// const route = useRoute();
+// const siteUrl = useRuntimeConfig().public.siteUrl;
+// const canonical = new URL(route.fullPath || "/seo-demo", siteUrl).toString();
+
+useSeoMeta({
+    title: seoTitle,
+    description: seoDescription,
+    ogTitle: seoTitle,
+    ogDescription: seoDescription,
+    ogType: "website",
+    ogImage: "DOMAIN_NAME/ethicarch-homepage.png",
+    twitterCard: "summary_large_image",
+});
+
+useHead({
+  script: [{
+    type: 'application/ld+json',
+    innerHTML: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebApplication',
+      name: seoTitle,
+      description: seoDescription,
+      applicationCategory: 'ProductivityApplication',
+      operatingSystem: 'Web'
+    })
+  }]
+})
 
 const handleScroll = () => {
     if (!headerNav.value) return;

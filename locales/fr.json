@@ -37,7 +37,7 @@
             "teaser": "Tu ambitionnes de concurrencer Amazon avec ton projet extrêmement innovateur et pensé jusque dans les moindres détails.",
             "content": [
                 {
-                    "subtitle": "Subtitle",
+                    "subtitle": "Some Subtitle",
                     "items": [
                         "Développeur",
                         "Développeur frontend",
@@ -56,5 +56,9 @@
     "alerts": {
         "copySuccess": "Texte copié avec succès !",
         "copyError": "Erreur lors de la copie du texte !"
+    },
+    "seo": {
+        "title": "Site blog pour vous partager la vision de Ethicarch",
+        "description": "À travers des articles portant globalement sur le développement d'applications et l'industrie de la tech, je tenterai vous exposer mon point de vue."
     }
 }
