@@ -1,1 +1,14 @@
-{}
+{
+    "title": "Home",
+    "description": "This blog aims to share with you the perspective of",
+    "callToAction": "Share your ideas with me!",
+    "infobull": "Give me good reasons to think what you think. Benjamin RUSSEL.",
+    "articleSection": {
+        "title": "Recent articles",
+        "description": "My latest articles on application development and the tech industry."
+    },
+    "seo": {
+        "title": "A blog sharing the Ethicarch vision",
+        "description": "Through articles focusing broadly on application development and the tech industry, I aim to share my perspective with you."
+    }
+}

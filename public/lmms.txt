@@ -1,0 +1,24 @@
+# Ethicarch, développeur web freelance basé dans les Hauts-de-France
+
+> En tant que développeur web full-stack, ma mission chez Ethicarch est de mettre la technologie au service de l'humain en concevant des applications web fiables, éthiques et accessibles. Mon approche privilégie la performance, la sécurité et la maintenabilité afin de créer des solutions souveraines et pérennes.
+
+Informations importantes :
+
+- Je vous accompagne à chaque étape pour garantir un résultat fiable et performant, en adéquation avec vos objectifs.
+- Les tarifs indiqués correspondent aux besoins les plus courants. Chaque projet peut faire l'objet d'une tarification personnalisée selon les fonctionnalités, la complexité et les objectifs à atteindre.
+
+## À propos du projet
+
+- [Page d'accueil d'Ethicarch](https://ethicalarchitect.fr/minimal-readme.md) : Version minimaliste du fichier README du projet.
+
+## Pages du site web
+
+- [blog](DOMAIN_NAME)
+- [accueil](https://ethicalarchitect.fr/)
+- [contact](https://ethicalarchitect.fr/contact)
+- [usage commercial](https://ethicalarchitect.fr/commercial-use)
+- [mentions légales](https://ethicalarchitect.fr/legal)
+
+## Réseaux sociaux
+
+- [page LinkedIn](https://www.linkedin.com/company/the-ethical-architect)

@@ -3,5 +3,62 @@
         "home": "Accueil",
         "articles": "Articles",
         "about": "À propos"
+    },
+    "footer": {
+        "author": {
+            "prename": "Construit par ",
+            "name": "Ethicarch"
+        },
+        "support": {
+            "prename": "Propulsé par ",
+            "name": "Nuxt"
+        }
+    },
+    "articles": [
+        {
+            "title": "Qu'est ce que le développement web ?",
+            "teaser": "Développeur.euse web, frontend, backend ou encore full stack des facettes du même métier ?",
+            "content": [
+                {
+                    "subtitle": "Un métier qui évolue aussi vite que un aspirateur qui aspire l'air",
+                    "items": [
+                        "Développeur",
+                        "Développeur frontend",
+                        "Développeur backend",
+                        "Développeur fullstack",
+                        "Développeur techno sexy"
+                    ]
+                }
+            ],
+            "imgAlt": "appli web"
+        },
+        {
+            "title": "Développeur freelance ou agence web ?",
+            "teaser": "Tu ambitionnes de concurrencer Amazon avec ton projet extrêmement innovateur et pensé jusque dans les moindres détails.",
+            "content": [
+                {
+                    "subtitle": "Some Subtitle",
+                    "items": [
+                        "Développeur",
+                        "Développeur frontend",
+                        "Développeur backend",
+                        "Développeur fullstack",
+                        "Développeur techno sexy"
+                    ]
+                }
+            ],
+            "imgAlt": "codage sur pc"
+        }
+    ],
+    "article": {
+        "linkToThatQuote": " # Lien vers ce paragraphe"
+    },
+    "alerts": {
+        "copySuccess": "Texte copié avec succès !",
+        "copyError": "Erreur lors de la copie du texte !"
+    },
+    "seo": {
+        "title": "Site blog pour vous partager la vision de Ethicarch",
+        "description": "À travers des articles portant globalement sur le développement d'applications et l'industrie de la tech, je tenterai vous exposer mon point de vue."
     }
 }

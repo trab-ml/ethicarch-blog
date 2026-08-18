@@ -1,1 +1,19 @@
-{}
+{
+    "title": "Articles",
+    "filters": {
+        "search": {
+            "placeholder": "Web Development"
+        },
+        "sortByDate": {
+            "mostRecent": "Most recent",
+            "lessRecent": "Oldest"
+        },
+        "resetFilters": {
+            "infobull": "Reset filters"
+        }
+    },
+    "seo": {
+        "title": "Articles (posts) from the Ethicarch blog",
+        "description": "Explore a wide range of articles: web developer, full-stack developer, freelance developer, web agency, AI..."
+    }
+}

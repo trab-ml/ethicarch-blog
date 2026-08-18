@@ -1,1 +1,60 @@
-{}
+{
+    "header": {
+        "home": "Home",
+        "articles": "Articles",
+        "about": "About"
+    },
+    "footer": {
+        "author": {
+            "prename": "Built by ",
+            "name": "Ethicarch"
+        },
+        "support": {
+            "prename": "Powered by ",
+            "name": "Nuxt"
+        }
+    },
+    "articles": [
+        {
+            "title": "What is web development?",
+            "teaser": "Web developer, frontend, backend, or full stack — different facets of the same profession?",
+            "content": [
+                {
+                    "subtitle": "#1 A profession that evolves as fast as a vacuum cleaner sucking up air",
+                    "items": [
+                        "Developer",
+                        "Frontend developer",
+                        "Backend developer",
+                        "Full-stack developer",
+                        "Sexy tech developer"
+                    ]
+                }
+            ],
+            "imgAlt": "web app"
+        },
+        {
+            "title": "Freelance developer or web agency?",
+            "teaser": "You aspire to compete with Amazon with your extremely innovative project, thought through down to the smallest detail.",
+            "content": [
+                {
+                    "subtitle": "#2 Subtitle",
+                    "items": [
+                        "Developer",
+                        "Frontend developer",
+                        "Backend developer",
+                        "Full-stack developer",
+                        "Sexy tech developer"
+                    ]
+                }
+            ],
+            "imgAlt": "coding on PC"
+        }
+    ],
+    "article": {
+        "linkToThatQuote": " # Link to that paragraph"
+    },
+    "seo": {
+        "title": "A blog sharing the Ethicarch vision",
+        "description": "Through articles focusing broadly on application development and the tech industry, I aim to share my perspective with you."
+    }
+}

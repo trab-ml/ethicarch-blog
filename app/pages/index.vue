@@ -1,15 +1,39 @@
 <template>
     <main>
-        <h1>{{ $t('title') }}</h1>
+        <h1>{{ $t("title") }}</h1>
         <p>
-            {{ $t('description') }}
-            <a href="https://ethicalarchitect.fr/" target="__blank">{{
-                $t('rootWebsite')
-            }}</a>
+            {{ $t("description") }}
+            <a
+                :href="REDIRECTIONS.ethicarch.home"
+                target="__blank"
+                class="underline underline-offset-4"
+                >{{ REDIRECTIONS.ethicarch.name }}</a
+            >
         </p>
+        <p class="flex items-center" :title="$t('infobull') as string">
+            <span>{{ $t("callToAction") }}</span>
+            <a
+                :href="REDIRECTIONS.ethicarch.contact"
+                class="hover:text-blue-600 hover:cursor"
+                target="__blank"
+            >
+                <img
+                    :src="letterBold"
+                    alt="Letter bold"
+                    width="32px"
+                    class="ms-1"
+                />
+            </a>
+        </p>
+
+        <section>
+            <h2>{{ $t("articleSection.title") }}</h2>
+            <p>{{ $t("articleSection.description") }}</p>
+            <ArticlesDisplayer box-style="my-4" :last-articles="true" />
+        </section>
     </main>
 </template>
 
-<script>
-import "~/assets/css/styles.css";
+<script setup lang="ts">
+import letterBold from "~/assets/icons/letter-bold.png";
 </script>
