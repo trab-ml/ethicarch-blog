@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     },
     compatibilityDate: "2026-08-08",
     ssr: true,
+    nitro: {
+        preset: "github_pages"
+    },
     modules: ["@nuxtjs/tailwindcss", "nuxt-i18n-micro"],
     i18n: {
         locales: [
