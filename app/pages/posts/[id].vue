@@ -11,7 +11,7 @@
         >
             <div class="sm:w-1/2">
                 <img
-                    :src="`/imgs/${article.imgUrl}`"
+                    :src="`${config.app.baseURL}imgs/${article.imgUrl}`"
                     :alt="article.imgAlt"
                     class="border-4 sm:border-8 border-black/40 rounded-xl"
                 />

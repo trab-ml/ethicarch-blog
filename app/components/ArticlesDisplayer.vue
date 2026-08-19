@@ -13,7 +13,7 @@
             <div class="sm:w-1/2">
                 <NuxtLink :href="`/posts/${article.id}`">
                     <img
-                        :src="`/imgs/${article.imgUrl}`"
+                        :src="`${config.app.baseURL}imgs/${article.imgUrl}`"
                         :alt="article.imgAlt"
                         class="border-4 sm:border-8 border-black/40 rounded-xl cursor-pointer-at-hovering hover:border-[--primary]"
                         :class="
@@ -58,6 +58,7 @@ const resetFilters = ref(false);
 
 const { $getLocale } = useI18n();
 
+const config = useRuntimeConfig();
 const { articles } = useArticles();
 
 const baseArticles = computed(() =>
