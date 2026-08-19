@@ -3,13 +3,19 @@ export default defineNuxtConfig({
     app: {
         baseURL: "/ethicarch-blog",
         head: {
-            meta: [{ name: "robots", content: "index, follow" }],
+            meta: [
+                { name: "robots", content: "index, follow" },
+                {
+                    name: "google-site-verification",
+                    content: "5hKM7mYyRjYLtipo8mCPd_1Y9ybCIBMir08xHnlD7QY",
+                },
+            ],
         },
     },
     compatibilityDate: "2026-08-08",
     ssr: true,
     nitro: {
-        preset: "github_pages"
+        preset: "github_pages",
     },
     modules: ["@nuxtjs/tailwindcss", "nuxt-i18n-micro"],
     i18n: {
