@@ -46,9 +46,6 @@ const headerNav = ref<HTMLElement | null>(null);
 const { $t } = useI18n();
 const seoTitle = () => $t("seo.title") as string;
 const seoDescription = () => $t("seo.description") as string;
-// const route = useRoute();
-// const siteUrl = useRuntimeConfig().public.siteUrl;
-// const canonical = new URL(route.fullPath || "/seo-demo", siteUrl).toString();
 
 useSeoMeta({
     title: seoTitle,

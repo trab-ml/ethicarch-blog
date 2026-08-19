@@ -11,7 +11,7 @@
             class="w-full flex flex-col sm:items-center my-8 border rounded-xl gap-2 sm:flex-row article-box"
         >
             <div class="sm:w-1/2">
-                <a :href="`/posts/${article.id}`">
+                <NuxtLink :href="`/posts/${article.id}`">
                     <img
                         :src="`/imgs/${article.imgUrl}`"
                         :alt="article.imgAlt"
@@ -22,15 +22,15 @@
                                 : '-skew-x-3 skew-y-2'
                         "
                     />
-                </a>
+                </NuxtLink>
             </div>
             <section class="text-[1rem] sm:w-1/2 lg:text-[1.2rem]">
-                <a :href="`/posts/${article.id}`"
+                <NuxtLink :href="`/posts/${article.id}`"
                     ><h3
                         class="change-col-at-hovering cursor-pointer-at-hovering"
                     >
                         {{ article.title }}
-                    </h3></a
+                    </h3></NuxtLink
                 >
                 <div>
                     <p>{{ article.teaser }}</p>

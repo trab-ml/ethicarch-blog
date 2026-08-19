@@ -66,7 +66,8 @@ import { ROUTES } from "~/utils/routes";
 
 const { t } = useI18n();
 const route = useRoute();
-const currentFullPath = import.meta.env.VITE_BASE_URL + route.fullPath;
+const config = useRuntimeConfig();
+const currentFullPath = config.app.baseURL + route.fullPath;
 const ERROR_ID_NOT_FOUND = "UNKNOW_ID";
 
 const { articles } = useArticles();
@@ -94,6 +95,20 @@ useSeoMeta({
     ogTitle: () => seoTitle,
     ogDescription: () => seoDesc,
 });
+
+useHead({
+  script: [{
+    type: 'application/ld+json',
+    innerHTML: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebApplication',
+      name: seoTitle,
+      description: seoDesc,
+      applicationCategory: 'ProductivityApplication',
+      operatingSystem: 'Web'
+    })
+  }]
+})
 </script>
 
 <style lang="css">
