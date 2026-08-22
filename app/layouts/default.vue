@@ -46,19 +46,35 @@ const headerNav = ref<HTMLElement | null>(null);
 const { $t } = useI18n();
 const seoTitle = () => $t("seo.title") as string;
 const seoDescription = () => $t("seo.description") as string;
-const SITE_URL = "https://trab-ml.github.io/ethicarch-blog/";
-
-useSeoMeta({
-    title: seoTitle,
-    description: seoDescription,
-    ogTitle: seoTitle,
-    ogDescription: seoDescription,
-    ogType: "website",
-    ogImage: `${SITE_URL}ethicarch-homepage.png`,
-    twitterCard: "summary_large_image",
-});
+const PROJECT_NAME = "ethicarch-blog";
+const SITE_URL = ref("https://trab-ml.github.io/ethicarch-blog/");
+const OG_IMAGE = `${SITE_URL}ethicarch-homepage.png`;
 
 useHead({
+    htmlAttrs: {
+        lang: "fr",
+        "data-theme": "light",
+    },
+    link: [
+        {
+            rel: "canonical",
+            href: SITE_URL,
+        },
+    ],
+    meta: [
+        {
+            name: "google-site-verification",
+            content: "XvspJhasrnrzaznK-j73RS7oVxx9uB2T8OBgAW9cB7w",
+        },
+        {
+            name: "robots",
+            content: "index,follow",
+        },
+        {
+            name: "referrer",
+            content: "strict-origin-when-cross-origin",
+        },
+    ],
     script: [
         {
             type: "application/ld+json",
@@ -74,6 +90,28 @@ useHead({
     ],
 });
 
+useSeoMeta({
+    title: seoTitle,
+    description: seoDescription,
+
+    ogType: "website",
+    ogLocale: "fr_FR",
+    ogUrl: SITE_URL,
+    ogSiteName: PROJECT_NAME,
+    ogTitle: seoTitle,
+    ogDescription: seoDescription,
+    ogImage: OG_IMAGE,
+    ogImageWidth: 1200,
+    ogImageHeight: 630,
+    ogImageType: "image/png",
+    ogImageAlt: seoTitle,
+
+    twitterCard: "summary_large_image",
+    twitterTitle: seoTitle,
+    twitterDescription: seoDescription,
+    twitterImage: OG_IMAGE,
+});
+
 const handleScroll = () => {
     if (!headerNav.value) return;
 
@@ -83,8 +121,8 @@ const handleScroll = () => {
         headerNav.value.style.backgroundColor = "#fff";
     }
 };
-
 onMounted(() => {
+    SITE_URL.value = window.location.href;
     window.addEventListener("scroll", handleScroll);
 });
 onUnmounted(() => {

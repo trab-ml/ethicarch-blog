@@ -93,7 +93,6 @@ useSeoMeta({
     ogTitle: () => seoTitle,
     ogDescription: () => seoDesc,
 });
-
 useHead({
     script: [
         {
