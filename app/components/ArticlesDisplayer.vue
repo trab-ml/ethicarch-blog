@@ -15,12 +15,11 @@
                     <img
                         :src="`${config.app.baseURL}/imgs/${article.imgUrl}`"
                         :alt="article.imgAlt"
-                        class="border-4 sm:border-8 border-black/40 rounded-xl cursor-pointer-at-hovering hover:border-[--primary]"
-                        :class="
+                        :class="`border-4 sm:border-8 border-black/40 rounded-xl cursor-pointer-at-hovering hover:border-[--primary] ${
                             index % 2 == 0
                                 ? 'skew-x-3 -skew-y-3'
                                 : '-skew-x-3 skew-y-2'
-                        "
+                        }`"
                     />
                 </NuxtLink>
             </div>

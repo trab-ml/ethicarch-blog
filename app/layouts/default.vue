@@ -60,6 +60,10 @@ useHead({
             rel: "canonical",
             href: SITE_URL,
         },
+        {
+            rel: "icon",
+            href: "/favicon.png",
+        },
     ],
     meta: [
         {
