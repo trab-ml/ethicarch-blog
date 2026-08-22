@@ -13,7 +13,7 @@ Informations importantes :
 
 ## Pages du site web
 
-- [blog](DOMAIN_NAME)
+- [blog](https://trab-ml.github.io/ethicarch-blog/)
 - [accueil](https://ethicalarchitect.fr/)
 - [contact](https://ethicalarchitect.fr/contact)
 - [usage commercial](https://ethicalarchitect.fr/commercial-use)

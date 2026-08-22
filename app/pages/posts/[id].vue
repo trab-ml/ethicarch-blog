@@ -2,7 +2,7 @@
     <main v-if="article != ERROR_ID_NOT_FOUND && article != undefined">
         <h1
             class="change-col-at-hovering cursor-pointer-at-hovering"
-            @click="copyToClipboard(currentFullPath)"
+            @click="copyToClipboard(currentUrl)"
         >
             {{ article.title }}
         </h1>
@@ -28,9 +28,7 @@
                 <span>{{ section.subtitle }}</span>
                 <span
                     :id="`${article.id}-${i}`"
-                    @click="
-                        copyToClipboard(`${currentFullPath}#${article.id}-${i}`)
-                    "
+                    @click="copyToClipboard(`${currentUrl}#${article.id}-${i}`)"
                     class="text-[2rem] font-light no-underline change-col-at-hovering cursor-pointer-at-hovering"
                 >
                     {{ t("article.linkToThatQuote") }}
@@ -67,7 +65,7 @@ import { ROUTES } from "~/utils/routes";
 const { t } = useI18n();
 const route = useRoute();
 const config = useRuntimeConfig();
-const currentFullPath = config.app.baseURL + route.fullPath;
+let currentUrl = "/";
 const ERROR_ID_NOT_FOUND = "UNKNOW_ID";
 
 const { articles } = useArticles();
@@ -97,18 +95,22 @@ useSeoMeta({
 });
 
 useHead({
-  script: [{
-    type: 'application/ld+json',
-    innerHTML: JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'WebApplication',
-      name: seoTitle,
-      description: seoDesc,
-      applicationCategory: 'ProductivityApplication',
-      operatingSystem: 'Web'
-    })
-  }]
-})
+    script: [
+        {
+            type: "application/ld+json",
+            innerHTML: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "WebApplication",
+                name: seoTitle,
+                description: seoDesc,
+                applicationCategory: "ProductivityApplication",
+                operatingSystem: "Web",
+            }),
+        },
+    ],
+});
+
+onMounted(() => (currentUrl = window.location.href));
 </script>
 
 <style lang="css">

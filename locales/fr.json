@@ -20,13 +20,13 @@
             "teaser": "Développeur.euse web, frontend, backend ou encore full stack des facettes du même métier ?",
             "content": [
                 {
-                    "subtitle": "Un métier qui évolue aussi vite que un aspirateur qui aspire l'air",
+                    "subtitle": "Un métier qui évolue aussi vite qu'un aspirateur aspire l'air",
                     "items": [
-                        "Développeur",
-                        "Développeur frontend",
-                        "Développeur backend",
-                        "Développeur fullstack",
-                        "Développeur techno sexy"
+                        "Tout un éventail de terminologie existe pour définir l'ingénieur logiciel : développeur web, développeur frontend, développeur backend, développeur full stack, développeur X, concepteur web…",
+                        "Concevoir un site web est de plus en plus complexe : en plus de devoir s'en remettre à une bibliothèque (ou un framework), le spécialiste du développement web se doit de faire usage d'une gamme d'outils variée : langages de programmation, plugins, extensions, librairies, gestionnaire de paquets, bundlers, versionning de code, gestion de projet, conteneurs…",
+                        "Ceci étant, le métier de développeur web se dessine à la frontière de plusieurs spécialités, à savoir l'architecture web, le devOps, le design, le référencement de sites web etc.",
+                        "Accepter qu'en tant que développeur, une partie majeure de ses connaissances se trouve sur internet, s'exercer à vulgariser une fonctionnalité pour le commun des mortels et ne pas se plier pas à toutes les envies de ses collaborateurs sont des principes qui changent la vie.",
+                        "Vous débutez dans le développement web : je vous suggère les cours libres d'accès sur OPENCLASSROOMS."
                     ]
                 }
             ],
@@ -37,13 +37,11 @@
             "teaser": "Tu ambitionnes de concurrencer Amazon avec ton projet extrêmement innovateur et pensé jusque dans les moindres détails.",
             "content": [
                 {
-                    "subtitle": "Some Subtitle",
+                    "subtitle": "Coût du développement d'un projet web",
                     "items": [
-                        "Développeur",
-                        "Développeur frontend",
-                        "Développeur backend",
-                        "Développeur fullstack",
-                        "Développeur techno sexy"
+                        "À moins qu'il s'agisse d'un projet à taille planétaire, un développeur indépendant (freelance) effectue un travail qualitatif approprié au projet qui lui est attribué.",
+                        "En mon sens, les points de divergence principale : une agence dispose d'une ou plusieurs équipes ils sont affectés à un ou plusieurs projets.",
+                        "Quant au prix dépendant de la complexité du projet des fonctionnalités à implémenter ainsi que des ressources à mobiliser (ressources humaines, matérielles et temporelles). La grille tarifaire pouvant aussi évoluer d'un développeur à l'autre, d'une agence à l'autre : on peut estimer que le coût en agence est trois fois plus élevé pour la même prestation."
                     ]
                 }
             ],

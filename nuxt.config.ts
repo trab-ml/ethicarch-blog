@@ -12,7 +12,7 @@ export default defineNuxtConfig({
             ],
         },
     },
-    compatibilityDate: "2026-08-08",
+    compatibilityDate: "2026-08-22",
     ssr: true,
     nitro: {
         preset: "github_pages",

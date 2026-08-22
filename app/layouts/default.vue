@@ -46,6 +46,7 @@ const headerNav = ref<HTMLElement | null>(null);
 const { $t } = useI18n();
 const seoTitle = () => $t("seo.title") as string;
 const seoDescription = () => $t("seo.description") as string;
+const SITE_URL = "https://trab-ml.github.io/ethicarch-blog/";
 
 useSeoMeta({
     title: seoTitle,
@@ -53,23 +54,25 @@ useSeoMeta({
     ogTitle: seoTitle,
     ogDescription: seoDescription,
     ogType: "website",
-    ogImage: "DOMAIN_NAME/ethicarch-homepage.png",
+    ogImage: `${SITE_URL}ethicarch-homepage.png`,
     twitterCard: "summary_large_image",
 });
 
 useHead({
-  script: [{
-    type: 'application/ld+json',
-    innerHTML: JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'WebApplication',
-      name: seoTitle,
-      description: seoDescription,
-      applicationCategory: 'ProductivityApplication',
-      operatingSystem: 'Web'
-    })
-  }]
-})
+    script: [
+        {
+            type: "application/ld+json",
+            innerHTML: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "WebApplication",
+                name: seoTitle,
+                description: seoDescription,
+                applicationCategory: "ProductivityApplication",
+                operatingSystem: "Web",
+            }),
+        },
+    ],
+});
 
 const handleScroll = () => {
     if (!headerNav.value) return;

@@ -20,30 +20,28 @@
             "teaser": "Web developer, frontend, backend, or full stack — different facets of the same profession?",
             "content": [
                 {
-                    "subtitle": "#1 A profession that evolves as fast as a vacuum cleaner sucking up air",
+                    "subtitle": "A profession that evolves as fast as a vacuum cleaner sucking up air",
                     "items": [
-                        "Developer",
-                        "Frontend developer",
-                        "Backend developer",
-                        "Full-stack developer",
-                        "Sexy tech developer"
+                        "A whole range of terminology exists to define the software engineer: web developer, frontend developer, backend developer, full stack developer, X developer, web designer…",
+                        "Designing a website is increasingly complex : in addition to having to rely on a library (or a framework), the web development specialist must use a varied range of tools : programming languages, plugins, extensions, libraries, package managers, bundlers, code versioning, project management, containers...",
+                        "That being said, the job of web developer is emerging at the border of several specialties, namely web architecture, devOps, design, website referencing, etc.",
+                        "Accepting that as a developer, a major part of your knowledge is found on the internet, practicing to popularize a functionality for ordinary people and not bending to all the wishes of your collaborators are principles that change life.",
+                        "You are new to web development : I suggest the free courses on OPENCLASSROOMS."
                     ]
                 }
             ],
             "imgAlt": "web app"
         },
         {
-            "title": "Freelance developer or web agency?",
+            "title": "Freelance developer or web agency ?",
             "teaser": "You aspire to compete with Amazon with your extremely innovative project, thought through down to the smallest detail.",
             "content": [
                 {
-                    "subtitle": "#2 Subtitle",
+                    "subtitle": "Cost of developing a web project",
                     "items": [
-                        "Developer",
-                        "Frontend developer",
-                        "Backend developer",
-                        "Full-stack developer",
-                        "Sexy tech developer"
+                        "Unless it is a global project, an independent developer (freelance) carries out qualitative work appropriate to the project assigned to him",
+                        "In my opinion, the main points of divergence: an agency has one or more teams they are assigned to one or more projects.",
+                        "As for the price depending on the complexity of the project of the functionalities to be implemented as well as the resources to be mobilized (human, material and time resources). The price scale can also change from one developer to another, from one agency to another: we can estimate that the agency cost is three times higher for the same service"
                     ]
                 }
             ],
