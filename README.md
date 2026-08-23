@@ -19,4 +19,4 @@ npm run preview
 ### Resources
 
 - Inspired by [Emma](https://portfolio-template.nuxt.dev/blog)
-- Thanks to [vuejs](https://vuejs.org/), [nuxt](https://nuxt.com/), [nuxt SEO](https://nuxtseo.com/),  [tailwindcss](https://tailwindcss.com/), [mambaui](https://mambaui.com/), [iconify](https://iconify.design/) and so on.
+- Thanks to [vuejs](https://vuejs.org/), [nuxt](https://nuxt.com/), [nuxt SEO](https://nuxtseo.com/),  [tailwindcss](https://tailwindcss.com/), [mambaui](https://mambaui.com/), [iconify](https://iconify.design/), [unsplash](https://unsplash.com/fr/) and so on.
