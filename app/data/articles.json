@@ -3,12 +3,17 @@
         {
             "id": "1",
             "createdAt": "2026-08-15",
-            "imgUrl": "sandisk.jpg"
+            "imgUrl": "simone-secci.jpg"
         },
         {
             "id": "2",
             "createdAt": "2026-08-22",
-            "imgUrl": "sandisk.jpg"
+            "imgUrl": "pakata-goh.jpg"
+        },
+        {
+            "id": "3",
+            "createdAt": "2026-08-23",
+            "imgUrl": "brooke-cagle.jpg"
         }
     ]
 }

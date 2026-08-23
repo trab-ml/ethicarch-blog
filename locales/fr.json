@@ -46,6 +46,29 @@
                 }
             ],
             "imgAlt": "codage sur pc"
+        },
+        {
+            "title": "Des diplômés qui ne feront pas carrière !",
+            "teaser": "Une dégringolade du recrutement des nouveaux diplômés pendant que les géants de la tech battent les records de leur chiffre d'affaires.",
+            "content": [
+                {
+                    "subtitle": "Pour diverses raisons toutes complexes les unes que les autres",
+                    "items": [
+                        "En haut de la pyramide des cadres seniors, en bas des juniors et intermédiaires de l'IT qui se voient la porte fermée au nez : faute de ne pas disposer des 3 - 4 ans d'expérience requise (hors alternance et stage). D'autre part l'IA remplace discrètement et indirectement les développeurs, recruter un dev : non pas besoin, pour un projet nécessitant 5 - 6 développeurs ce sera 3 - 4 dev avec une licence de plateforme low-code / no-code.",
+                        "Quant à l'alternance qui, vraisemblablement, par d'un bon fond : acquérir de la matière avant même de finir les études, et ce pour accélérer son insertion professionnelle une fois celle-ci achevée.",
+                        "Le recours à cette pratique est détournée par un bon nombre d'entreprises : elles vont recruter des mini-salariés, bénéficier des avantages associés (rémunération, aides, exonérations liées aux cotisations…) et les remplacer par d'autres alternants. Certaines ESN vont jusqu'à placer ces alternants smicards chez des entreprises partenaires et les facturer au coût d'un salarié normal."
+                    ]
+                },
+                {
+                    "subtitle": "Revenons à nos moutons !",
+                    "items": [
+                        "Pour revenir à notre pyramide, qui va remplacer les seniors une fois à la retraite si personne n'investit dans les juniors ?",
+                        "D'ailleurs pour quelle raison cette vague informationnelle sur l'émergence du développement web continue ?",
+                        "À qui l'inondation du marché de la tech bénéficierait-il ?"
+                    ]
+                }
+            ],
+            "imgAlt": "étudiants en cours"
         }
     ],
     "article": {
