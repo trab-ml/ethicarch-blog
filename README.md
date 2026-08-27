@@ -14,6 +14,9 @@ npm run preview
 
 # npx nuxi@latest module add tailwindcss
 # npm install nuxt-i18n-micro
+
+# Direct local access througth shared network connexion :
+npm run dev -- --host 
 ```
 
 ### Resources
