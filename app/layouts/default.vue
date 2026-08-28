@@ -1,8 +1,8 @@
 <template>
     <div
-        class="relative w-60 min-h-screen flex flex-col mx-auto text-sm sm:text-xl sm:w-3/5"
+        class="relative w-80 sm:w-60 min-h-screen flex flex-col mx-auto text-sm sm:text-xl sm:w-3/5"
     >
-        <header class="fixed w-60 mx-auto sm:w-3/5 z-40">
+        <header class="fixed w-80 sm:w-60 mx-auto sm:w-3/5 z-40">
             <nav
                 ref="headerNav"
                 class="flex justify-center gap-2 mt-3 p-2 bg-transparent border-2 border-black/60 rounded-xl"
@@ -19,7 +19,7 @@
         </main>
         <footer class="my-3">
             <ul
-                class="absolute bottom-3 w-full flex items-center gap-1 p-1 border-2 border-black/60 rounded-xl text-[0.70rem] sm:text-xl sm:justify-center"
+                class="absolute bottom-3 w-full flex justify-between gap-1 p-1 border-2 border-black/60 rounded-xl text-[0.70rem] sm:text-xl sm:justify-center"
             >
                 <li>
                     <span>{{ $t("footer.author.prename") }}</span>
