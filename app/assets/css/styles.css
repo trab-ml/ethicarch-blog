@@ -59,6 +59,19 @@ footer a {
     font-weight: bolder;
 }
 
+.page-enter-active,
+.page-leave-active {
+    transition: all 0.2s;
+}
+.page-enter-from,
+.page-leave-to {
+    opacity: 0;
+}
+.page-leave-active {
+    position: absolute;
+    width: 100%;
+}
+
 @media screen and (min-width: 640px) {
     h3 {
         font-size: 1.40rem;

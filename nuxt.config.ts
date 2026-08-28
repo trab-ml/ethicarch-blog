@@ -11,6 +11,9 @@ export default defineNuxtConfig({
                 },
             ],
         },
+        pageTransition: {
+            name: "page",
+        }
     },
     compatibilityDate: "2026-08-22",
     ssr: true,
