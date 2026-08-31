@@ -69,6 +69,33 @@
                 }
             ],
             "imgAlt": "students in class"
+        },
+        {
+            "title": "What does AI really cost ?",
+            "teaser": "“Let's think about it for a moment, it's not excessive!” 🙂",
+            "content": [
+                {
+                    "subtitle": "Before",
+                    "items": [
+                        "In the past, we conducted internet searches to gather information: collecting, sorting, analyzing, and interpreting data from various sources."
+                    ]
+                },
+                {
+                    "subtitle": "Now",
+                    "items": [
+                        "Nowadays, with artificial intelligence, the model handles this task and provides us with a summary."
+                    ]
+                },
+                {
+                    "subtitle": "At what cost?",
+                    "items": [
+                        "In my view, the research process helps strengthen our analytical skills, critical thinking, and ability to synthesize information; essential capabilities for reflecting, reasoning, expressing oneself, and constructing arguments in a society where the economic model actually encourages illiteracy.",
+                        "While the cost is cognitive, it is also financial and unsustainable in the long run: training a model like ChatGPT consumes enough electricity to power the entire country of Belgium for a full day, a Western European nation of 11 million people and 30,688 km².",
+                        "By the way : if it's free, you are the product because the billions invested in AI are certainly not part of a philanthropic endeavor !"
+                    ]
+                }
+            ],
+            "imgAlt": "electrifying landscape"
         }
     ],
     "article": {

@@ -69,6 +69,33 @@
                 }
             ],
             "imgAlt": "étudiants en cours"
+        },
+        {
+            "title": "Combien l'IA coûte réellement ?",
+            "teaser": "“Réfléchissons deux minutes, ce n'est pas excessif !” 🙂",
+            "content": [
+                {
+                    "subtitle": "Avant",
+                    "items": [
+                        "Avant on effectuait une recherche internet pour se renseigner : collecter, trier, analyser et interpréter des informations de sources diverses."
+                    ]
+                },
+                {
+                    "subtitle": "Maintenant",
+                    "items": [
+                        "De nos jours, avec l'intelligence artificielle, le modèle s'en charge et nous restitue un condensé."
+                    ]
+                },
+                {
+                    "subtitle": "A quel prix ?",
+                    "items": [
+                        "Cet exercice de recherche, en mon sens, permet de renforcer notre esprit d'analyse, pensée critique et esprit de synthèse; des capacités élémentaires incontournables pour réfléchir, raisonner, s'exprimer et argumenter dans une société où l'analphabétisme est encouragée par le modèle économique.",
+                        "Ce coût bien que cognitif est aussi financier et insoutenable dans la durée : l'entraînement d'un modèle comme ChatGPT absorbe l'électricité nécessaire pour alimenter la Belgique entière pendant 1 journée complète, un pays d'Europe de l'Ouest de 11 millions d'habitants avec une superficie de 30 688 km2.",
+                        "Au passage : si c'est gratuit vous êtes le produit, car ces milliards investis dans l'IA ne s'inscrivent pas dans une démarche philanthropique !"
+                    ]
+                }
+            ],
+            "imgAlt": "paysage électrisant"
         }
     ],
     "article": {
