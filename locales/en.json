@@ -91,11 +91,52 @@
                     "items": [
                         "In my view, the research process helps strengthen our analytical skills, critical thinking, and ability to synthesize information; essential capabilities for reflecting, reasoning, expressing oneself, and constructing arguments in a society where the economic model actually encourages illiteracy.",
                         "While the cost is cognitive, it is also financial and unsustainable in the long run: training a model like ChatGPT consumes enough electricity to power the entire country of Belgium for a full day, a Western European nation of 11 million people and 30,688 km².",
-                        "By the way : if it's free, you are the product because the billions invested in AI are certainly not part of a philanthropic endeavor !"
+                        "On this concluding note, please when it's free you are the product because the billions invested in AI are certainly not part of a philanthropic endeavor !"
                     ]
                 }
             ],
             "imgAlt": "electrifying landscape"
+        },
+        {
+            "title": "Who do we give our information to?",
+            "teaser": "Can't fit the list of your user accounts (and the info provided) into a single notebook ?",
+            "content": [
+                {
+                    "subtitle": "The trigger",
+                    "items": [
+                        "One Saturday morning at the flea market, Jack runs into Rose; after a brief greeting, Jack launches into a series of questions (subtly, of course) :",
+                        "What's your lovely name ? (name)",
+                        "You look so young ! (age)",
+                        "How come ? I've never seen you around here ! (address)",
+                        "I'd really appreciate your opinion on my website... Shall I send you the link via phone or email? (contact details)",
+                        "Has anyone ever told you ? You look like a salesperson ! (profession)"
+                    ]
+                },
+                {
+                    "subtitle": "In other words",
+                    "items": [
+                        "Literally, Jack is collecting Rose's information; it's more or less the same process used by many websites and web applications. They want to know everything—even details that aren't necessary for the service they provide :",
+                        "A temp agency asking for a passport in addition to the valid ID card already provided.",
+                        "A platform asking for a social security number, ID card, or bank card to verify that you are of legal age.",
+                        "A site requiring your location for internal operational policies...",
+                        "The worst part is that they won't take the necessary steps to protect this data."
+                    ]
+                },
+                {
+                    "subtitle": "Change starts now !",
+                    "items": [
+                        "In my view, IT solutions that are anonymous (as far as possible) should be the norm in this era of massive cybercrime.",
+                        "Before signing up for any platform, take 30 seconds :",
+                        "Why do they need this information ?",
+                        "Who will have access to it ?",
+                        "What is their user data protection policy ?",
+                        "Is an account on this app really worth it ?",
+                        "Is there an alternative solution ?",
+                        "Another option would be to do what John Doe does. Hello, I'm John; I don't disclose any unnecessary information about myself !"
+                    ]
+                }
+            ],
+            "imgAlt": "passport pages"
         }
     ],
     "article": {

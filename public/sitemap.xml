@@ -4,25 +4,25 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://trab-ml.github.io/ethicarch-blog/articles</loc>
-    <lastmod>2026-08-22</lastmod>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://trab-ml.github.io/ethicarch-blog</loc>
-    <lastmod>2026-08-22</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://trab-ml.github.io/ethicarch-blog/posts/1</loc>
-    <lastmod>2026-08-22</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://trab-ml.github.io/ethicarch-blog/posts/2</loc>
-    <lastmod>2026-08-22</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>

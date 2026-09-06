@@ -96,6 +96,47 @@
                 }
             ],
             "imgAlt": "paysage électrisant"
+        },
+        {
+            "title": "À qui offre-t-on nos informations ?",
+            "teaser": "La liste de tes comptes utilisateur (et des infos fournies) ne saurait tenir dans un carnet ?",
+            "content": [
+                {
+                    "subtitle": "Élément déclencheur",
+                    "items": [
+                        "Un samedi matin au marché aux puces, Jack croise Rose; après s'être salué à peine, Jack enchaîne avec une série de question (de manière subtile) :",
+                        "C'est quoi ton joli prénom ? (nom)",
+                        "Tu fais bonne enfant tu sais ! (âge)",
+                        "Comment se fait t-il ? Je t'ai jamais vu dans le coin ! (adresse)",
+                        "Ce serait très apprécié d'avoir ton avis sur mon site web… Je t'envoie l'adresse par téléphone ou mél si tu préfères ? (contact)",
+                        "On te l'a jamais dit ? t'as une tête de commercial ! (profession)"
+                    ]
+                },
+                {
+                    "subtitle": "En d'autres termes",
+                    "items": [
+                        "Littéralement, Jack collecte les informations de Rose, c'est plus ou moins le même procédé sur un grand nombre de sites et applications web. Ils veulent tout savoir même ce qui ne leur est pas utile, au vu de la prestation de service fournie :",
+                        "Une agence d'intérim qui réclame un passeport en plus de la carte d'identité valide déjà fournie.",
+                        "Une plateforme qui réclame un numéro de sécurité sociale, une carte d'identité ou une carte bancaire pour vérifier si tu es majeur.",
+                        "Un site qui requiert ta localisation pour des politiques de fonctionnement interne…",
+                        "Le comble est qu'ils ne feront pas le nécessaire pour protéger ces données."
+                    ]
+                },
+                {
+                    "subtitle": "Le changement commence maintenant !",
+                    "items": [
+                        "En mon sens des solutions informatiques anonymes (autant que possible) devraient être la norme en cette ère de cybercriminalité titanesque.",
+                        "Avant de vous inscrire sur n'importe quelle plateforme, prenez 30 secondes :",
+                        "Pourquoi ont-ils besoin de cette information ?",
+                        "Qui y aura accès ?",
+                        "Quelle est leur politique en matière de protection des données utilisateur ?",
+                        "Un compte sur cette appli vaut-il vraiment la peine ?",
+                        "Existe-t-il une solution alternative ?",
+                        "Une autre solution serait de faire comme John Doe. Bonjour, je suis John, je ne divulgue aucune information non nécessaire me concernant !"
+                    ]
+                }
+            ],
+            "imgAlt": "pages d'un passport"
         }
     ],
     "article": {
