@@ -1,0 +1,153 @@
+{
+    "header": {
+        "home": "Startseite",
+        "articles": "Artikel",
+        "about": "Über mich"
+    },
+    "footer": {
+        "author": {
+            "prename": "Erstellt von ",
+            "name": "Ethicarch"
+        },
+        "support": {
+            "prename": "Betrieben mit ",
+            "name": "Nuxt"
+        }
+    },
+    "articles": [
+        {
+            "title": "Was ist Webentwicklung?",
+            "teaser": "Webentwickler, Frontend, Backend oder Full-Stack - sind das alles Facetten desselben Berufs?",
+            "content": [
+                {
+                    "subtitle": "Ein Beruf, der sich rasend schnell entwickelt",
+                    "items": [
+                        "Es gibt eine ganze Reihe von Begriffen für Softwareentwickler: Webentwickler, Frontend-Entwickler, Backend-Entwickler, Full-Stack-Entwickler, X-Entwickler, Webdesigner …",
+                        "Die Konzeption einer Website wird immer komplexer: Neben der Nutzung von Bibliotheken (oder Frameworks) muss der Webentwickler eine Vielzahl von Werkzeugen beherrschen - von Programmiersprachen, Plugins, Erweiterungen, Bibliotheken, Paketmanagern und Bundlern bis hin zu Versionsverwaltung, Projektmanagement und Containern …",
+                        "Dabei bewegt sich der Beruf des Webentwicklers an der Schnittstelle verschiedener Fachgebiete, wie Webarchitektur, DevOps, Design, Suchmaschinenoptimierung (SEO) usw.",
+                        "Zu akzeptieren, dass ein Großteil des eigenen Wissens als Entwickler im Internet zu finden ist, zu lernen, wie man Funktionen für Laien verständlich erklärt, und nicht jedem Wunsch der Kollegen nachzugeben - das sind Prinzipien, die das Berufsleben verändern können.",
+                        "Sie stehen am Anfang Ihrer Laufbahn in der Webentwicklung? Ich empfehle Ihnen die frei zugänglichen Kurse auf OPENCLASSROOMS."
+                    ]
+                }
+            ],
+            "imgAlt": "Webanwendung"
+        },
+        {
+            "title": "Freelance-Entwickler oder Webagentur?",
+            "teaser": "Du hast den Ehrgeiz, mit deinem extrem innovativen und bis ins kleinste Detail durchdachten Projekt gegen Amazon anzutreten.",
+            "content": [
+                {
+                    "subtitle": "Kosten für die Entwicklung eines Webprojekts",
+                    "items": [
+                        "Sofern es sich nicht um ein Projekt von globalem Ausmaß handelt, liefert ein unabhängiger Entwickler (Freelancer) eine qualitativ hochwertige Arbeit, die genau auf das ihm übertragene Projekt zugeschnitten ist.",
+                        "Die wesentlichen Unterschiede liegen meiner Meinung nach darin, dass eine Agentur über ein oder mehrere Teams verfügt, die einem oder mehreren Projekten zugeteilt werden.",
+                        "Was den Preis betrifft, so hängt dieser von der Komplexität des Projekts, den zu implementierenden Funktionen sowie den erforderlichen Ressourcen (Personal, Hardware/Software und Zeitaufwand) ab. Da die Preisgestaltung sowohl von Entwickler zu Entwickler als auch von Agentur zu Agentur variiert, lässt sich grob sagen, dass die Kosten bei einer Agentur für dieselbe Leistung etwa dreimal so hoch sind."
+                    ]
+                }
+            ],
+            "imgAlt": "Programmieren am PC"
+        },
+        {
+            "title": "Absolventen ohne Karrierechancen!",
+            "teaser": "Ein drastischer Rückgang bei der Einstellung von Hochschulabsolventen, während Tech-Giganten Umsatzrekorde brechen.",
+            "content": [
+                {
+                    "subtitle": "Aus vielfältigen Gründen, die allesamt komplex sind",
+                    "items": [
+                        "An der Spitze der Hierarchie stehen erfahrene Führungskräfte, während IT-Einsteigern und Fachkräften auf mittlerer Ebene die Tür vor der Nase zugeschlagen wird - oft, weil ihnen die geforderten 3 bis 4 Jahre Berufserfahrung (exklusive Ausbildung und Praktika) fehlen. Zudem ersetzt KI still und indirekt Entwickler: Für ein Projekt, das früher 5 bis 6 Entwickler erforderte, genügen heute 3 bis 4 Entwickler und eine Lizenz für eine Low-Code-/No-Code-Plattform.",
+                        "Was die duale Ausbildung (oder das Studium mit Praxisphasen) betrifft, so ist der Grundgedanke eigentlich positiv: praktische Erfahrung sammeln noch vor Studienabschluss, um den Berufseinstieg nach der Ausbildung zu beschleunigen.",
+                        "Doch viele Unternehmen nutzen dieses Modell zweckentfremdet: Sie stellen „Mini-Angestellte“ ein, profitieren von den damit verbundenen Vorteilen (Vergütung, staatliche Zuschüsse, Beitragsbefreiungen usw.) und ersetzen sie anschließend durch neue Auszubildende. Manche IT-Dienstleister gehen sogar so weit, diese Auszubildenden zum Mindestlohn bei Partnerunternehmen einzusetzen und sie zum vollen Satz eines regulären Angestellten abzurechnen."
+                    ]
+                },
+                {
+                    "subtitle": "Zurück zum eigentlichen Thema!",
+                    "items": [
+                        "Um auf unsere Hierarchiepyramide zurückzukommen: Wer ersetzt die erfahrenen Kräfte, wenn diese in Rente gehen, wenn niemand in den Nachwuchs investiert?",
+                        "Aus welchem Grund hält eigentlich die Informationswelle über den Boom der Webentwicklung an?",
+                        "Wem nützt diese Überflutung des Tech-Marktes?"
+                    ]
+                }
+            ],
+            "imgAlt": "Studierende in einer Lehrveranstaltung"
+        },
+        {
+            "title": "Was kostet KI eigentlich wirklich?",
+            "teaser": "„Denken wir kurz darüber nach - es ist gar nicht so wenig!“ 🙂",
+            "content": [
+                {
+                    "subtitle": "Früher",
+                    "items": [
+                        "Früher führte man Internetrecherchen durch, um sich zu informieren: Informationen aus verschiedensten Quellen wurden gesammelt, sortiert, analysiert und interpretiert."
+                    ]
+                },
+                {
+                    "subtitle": "Heute",
+                    "items": [
+                        "Heutzutage übernimmt das Modell diese Aufgabe mithilfe künstlicher Intelligenz und liefert uns eine Zusammenfassung."
+                    ]
+                },
+                {
+                    "subtitle": "Zu welchem Preis?",
+                    "items": [
+                        "Dieser Rechercheprozess stärkt meiner Meinung nach unsere Analysefähigkeit, unser kritisches Denken und unsere Synthesefähigkeit - grundlegende Kompetenzen, die unerlässlich sind, um in einer Gesellschaft, in der das Wirtschaftsmodell Analphabetismus begünstigt, nachzudenken, zu schlussfolgern, sich auszudrücken und zu argumentieren.",
+                        "Dieser Preis ist nicht nur kognitiver, sondern auch finanzieller Natur und auf Dauer nicht tragbar: Das Training eines Modells wie ChatGPT verbraucht so viel Strom, wie ganz Belgien - ein westeuropäisches Land mit 11 Millionen Einwohnern und einer Fläche von 30.688 km² - an einem ganzen Tag benötigt.",
+                        "Übrigens: Wenn es kostenlos ist, sind Sie das Produkt - denn die Milliardeninvestitionen in KI erfolgen gewiss nicht aus philanthropischen Beweggründen!"
+                    ]
+                }
+            ],
+            "imgAlt": "elektrisierende Landschaft"
+        },
+        {
+            "title": "Wem geben wir unsere Informationen weiter?",
+            "teaser": "Passt die Liste deiner Benutzerkonten (und der bereitgestellten Infos) nicht in ein Notizbuch?",
+            "content": [
+                {
+                    "subtitle": "Auslösendes Ereignis",
+                    "items": [
+                        "An einem Samstagmorgen auf dem Flohmarkt trifft Jack auf Rose; nach einer kurzen Begrüßung stellt Jack (auf subtile Weise) eine Reihe von Fragen:",
+                        "Wie lautet denn dein schöner Vorname? (Name)",
+                        "Du siehst noch richtig jung aus! (Alter)",
+                        "Wie kommt das? Ich habe dich hier in der Gegend noch nie gesehen! (Adresse)",
+                        "Ich würde mich sehr über deine Meinung zu meiner Website freuen … Soll ich dir die Adresse per Telefon oder E-Mail schicken? (Kontakt)",
+                        "Hat man dir das schon mal gesagt? Du siehst aus wie jemand aus dem Vertrieb! (Beruf)"
+                    ]
+                },
+                {
+                    "subtitle": "Anders ausgedrückt",
+                    "items": [
+                        "Im Grunde sammelt Jack Informationen über Rose - ein Vorgang, der bei vielen Websites und Webanwendungen mehr oder weniger genauso abläuft. Sie wollen alles wissen, selbst Dinge, die für die eigentliche Dienstleistung gar nicht erforderlich sind:",
+                        "Eine Zeitarbeitsfirma, die zusätzlich zum bereits vorgelegten gültigen Personalausweis auch noch einen Reisepass verlangt.",
+                        "Eine Plattform, die Sozialversicherungsnummer, Personalausweis oder Bankkarte fordert, um zu überprüfen, ob du volljährig bist.",
+                        "Eine Website, die deinen Standort abfragt - angeblich aus internen betrieblichen Gründen …",
+                        "Das Schlimmste daran ist: Sie unternehmen nicht die nötigen Schritte, um diese Daten zu schützen."
+                    ]
+                },
+                {
+                    "subtitle": "Der Wandel beginnt jetzt!",
+                    "items": [
+                        "Meiner Meinung nach sollten (weitestgehend) anonyme IT-Lösungen in Zeiten massiver Cyberkriminalität der Standard sein.",
+                        "Bevor Sie sich auf einer beliebigen Plattform registrieren, nehmen Sie sich 30 Sekunden Zeit:",
+                        "Warum benötigen sie diese Information?",
+                        "Wer hat Zugriff darauf?",
+                        "Wie gehen sie mit Nutzerdaten um?",
+                        "Lohnt sich ein Konto bei dieser App wirklich?",
+                        "Gibt es eine Alternative?",
+                        "Eine weitere Möglichkeit wäre, es wie John Doe zu machen: „Hallo, ich bin John - ich gebe keine unnötigen Informationen über mich preis!“"
+                    ]
+                }
+            ],
+            "imgAlt": "Seiten eines Reisepasses"
+        }
+    ],
+    "article": {
+        "linkToThatQuote": " # Link zu diesem Absatz"
+    },
+    "alerts": {
+        "copySuccess": "Text erfolgreich kopiert!",
+        "copyError": "Fehler beim Kopieren des Textes!"
+    },
+    "seo": {
+        "title": "Blog, um die Vision von Ethicarch zu teilen",
+        "description": "In Artikeln, die sich vorwiegend mit der Anwendungsentwicklung und der Tech-Branche befassen, möchte ich meine Sichtweise darlegen."
+    }
+}

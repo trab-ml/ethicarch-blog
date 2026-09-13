@@ -23,8 +23,10 @@ export default defineNuxtConfig({
     modules: ["@nuxtjs/tailwindcss", "nuxt-i18n-micro"],
     i18n: {
         locales: [
-            { code: "en", iso: "en-US", dir: "ltr" },
-            { code: "fr", iso: "fr-FR", dir: "ltr" },
+            { code: "en", iso: "en-US", dir: "ltr", displayName: 'English' },
+            { code: "fr", iso: "fr-FR", dir: "ltr", displayName: 'Français' },
+            { code: "de", iso: "de-DE", dir: "ltr", displayName: 'Deutsch' },
+            { code: "ba", iso: "ba-BA", dir: "ltr", displayName: 'Bambara' },
         ],
         defaultLocale: "fr",
         translationDir: "locales",

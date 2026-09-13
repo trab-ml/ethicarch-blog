@@ -1,0 +1,14 @@
+{
+    "title": "Startseite",
+    "description": "Dieser Blog möchte die Vision von ... mit Ihnen teilen",
+    "callToAction": "Teilen Sie mir Ihre Ideen mit!",
+    "infobull": "Nennen Sie mir gute Gründe für Ihre Sichtweise. Benjamin RUSSEL.",
+    "articleSection": {
+        "title": "Aktuelle Artikel",
+        "description": "Meine neuesten Artikel über Anwendungsentwicklung und die Tech-Branche."
+    },
+    "seo": {
+        "title": "Blog zur Vorstellung der Vision von Ethicarch",
+        "description": "In Artikeln, die sich vorwiegend mit Anwendungsentwicklung und der Tech-Branche befassen, möchte ich Ihnen meinen Standpunkt darlegen."
+    }
+}
