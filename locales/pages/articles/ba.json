@@ -1,0 +1,19 @@
+{
+    "title": "Barikanw",
+    "filters": {
+        "search": {
+            "placeholder": "Web Dev"
+        },
+        "sortByDate": {
+            "mostRecent": "Kura fɔlɔ",
+            "lessRecent": "Kɔrɔlen fɔlɔ"
+        },
+        "resetFilters": {
+            "infobull": "Filɛriw labɛn kokura"
+        }
+    },
+    "seo": {
+        "title": "Barikan minnu bɔra Ethicarch bulɔgu la",
+        "description": "Aw ye barokun suguya caman sɛgɛsɛgɛ: ɛntɛrinɛti dilannikɛla, dafalen dilanbaga, baarakɛla yɛrɛmahɔrɔnyalen, ɛntɛrinɛti baarada, AI..."
+    }
+}

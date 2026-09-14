@@ -37,12 +37,15 @@ onMounted(() => {
 </script>
 
 <style scoped>
-button.lang-btn:first-child {
-    padding-right: 2px;
+button.lang-btn {
+    padding-right: 4px;
     border-right: 1px solid gray;
 }
 button.lang-btn.current-lang {
     color: var(--primary);
     font-weight: bolder;
+}
+button.lang-btn:last-child {
+    border: 0;
 }
 </style>

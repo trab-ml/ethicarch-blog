@@ -42,8 +42,11 @@ const search = defineModel<string>("search", { required: true });
 const sortByDate = defineModel<string>("sortByDate", { required: true });
 const resetFilters = defineModel<boolean>("resetFilters", { required: false });
 
+const mostRecent = computed(() => t("filters.sortByDate.mostRecent"));
+const lessRecent = computed(() => t("filters.sortByDate.lessRecent"));
+
 const options = ref([
-    { text: t("filters.sortByDate.mostRecent"), value: DESCENDING_SORT },
-    { text: t("filters.sortByDate.lessRecent"), value: ASCENDING_SORT },
+    { text: mostRecent, value: DESCENDING_SORT },
+    { text: lessRecent, value: ASCENDING_SORT },
 ]);
 </script>

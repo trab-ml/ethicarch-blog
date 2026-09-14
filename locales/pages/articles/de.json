@@ -1,0 +1,19 @@
+{
+    "title": "Artikel",
+    "filters": {
+        "search": {
+            "placeholder": "Webentwicklung"
+        },
+        "sortByDate": {
+            "mostRecent": "Neueste zuerst",
+            "lessRecent": "Älteste zuerst"
+        },
+        "resetFilters": {
+            "infobull": "Filter zurücksetzen"
+        }
+    },
+    "seo": {
+        "title": "Artikel (Beiträge) auf dem Blog von Ethicarch",
+        "description": "Entdecken Sie vielfältige Artikel zu Themen wie Webentwicklung, Full-Stack-Entwicklung, Freelance-Entwicklung, Webagenturen, KI..."
+    }
+}
