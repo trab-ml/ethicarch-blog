@@ -16,14 +16,14 @@
     },
     "articles": [
         {
-            "title": "Web yiriwali ye mun ye?",
-            "teaser": "Web developer, frontend, backend, walima full-stack - yala ninnu ye baara kelen fan wɛrɛw dɔrɔn de ye wa?",
+            "title": "Web yiriwali ye mun ye ?",
+            "teaser": "Web developer, frontend, backend, walima full-stack - yala ninnu ye baara kelen fan wɛrɛw dɔrɔn de ye wa ?",
             "content": [
                 {
                     "subtitle": "Baara min bɛ wuli joona i n'a fɔ aspiratɛri bɛ fiɲɛ sama cogo min na",
                     "items": [
-                        "Daɲɛ caman bɛ yen walasa ka porozɛ injiniyɛri ɲɛfɔ: ɛntɛrinɛti dilabaga, ɲɛfɛla labɛnbaga, kɔkanna labɛnbaga, full-stack dilabaga, 'X' dilabaga, ɛntɛrinɛti dilabaga, a ɲɔgɔnnaw.",
-                        "Website dɔ dilanni bɛ ka gɛlɛya ka taa a fɛ: ka tɛmɛn ka da gafemarayɔrɔ (walima karamɔgɔya) kan, ɛntɛrinɛti yiriwali kɛrɛnkɛrɛnnenw ka kan ka baara kɛ ni baarakɛminɛn suguya caman ye - porogaramukanw, plugins, extensions, gafemarayɔrɔw, pakew ɲɛnabɔbagaw, bundlers, version control, poroze ɲɛnabɔli, minɛnw, ani fɛn wɛrɛw.",
+                        "Daɲɛ caman bɛ yen walasa ka porozɛ injiniyɛri ɲɛfɔ : ɛntɛrinɛti dilabaga, ɲɛfɛla labɛnbaga, kɔkanna labɛnbaga, full-stack dilabaga, 'X' dilabaga, ɛntɛrinɛti dilabaga, a ɲɔgɔnnaw.",
+                        "Website dɔ dilanni bɛ ka gɛlɛya ka taa a fɛ : ka tɛmɛn ka da gafemarayɔrɔ (walima karamɔgɔya) kan, ɛntɛrinɛti yiriwali kɛrɛnkɛrɛnnenw ka kan ka baara kɛ ni baarakɛminɛn suguya caman ye - porogaramukanw, plugins, extensions, gafemarayɔrɔw, pakew ɲɛnabɔbagaw, bundlers, version control, poroze ɲɛnabɔli, minɛnw, ani fɛn wɛrɛw.",
                         "A laban na, ɛntɛrinɛti dilannikɛla jɔyɔrɔ bɛ sigi kɛrɛnkɛrɛnnenya caman cɛtigɛyɔrɔ la, i n'a fɔ ɛntɛrinɛti jɔli, DevOps, dilancogo, SEO, ani a ɲɔgɔnnaw.",
                         "Ka sɔn a ma ko baarakɛla dɔ ka dɔnniya fanba bɛ sɔrɔ ɛntɛrinɛti kan, ka fɛnw ɲɛfɔcogo dege kan gansan na mɔgɔ gansan ye, ani k'a dege ko i kana i yɛrɛ di i baarakɛɲɔgɔnw ka ŋaniya bɛɛ ma, o ye sariyakolow ye minnu bɛ ɲɛnamaya Changer.",
                         "N'i bɛ ka daminɛ dɔrɔn ɛntɛrinɛti yiriwali la, n bɛ kalan fuw laadi minnu bɛ sɔrɔ OpenClassrooms kan."
@@ -33,7 +33,7 @@
             "imgAlt": "web app"
         },
         {
-            "title": "Dɔgɔtɔrɔso yɛrɛmahɔrɔnyalen walima ɛntɛrinɛti baarada?",
+            "title": "Dɔgɔtɔrɔso yɛrɛmahɔrɔnyalen walima ɛntɛrinɛti baarada ?",
             "teaser": "I b'a fɛ ka ɲɔgɔn sɔrɔ ni Amazɔni ye ni porozɛ kura ye min labɛnna koɲuman fo ka se a danma laban ma.",
             "content": [
                 {
@@ -41,37 +41,37 @@
                     "items": [
                         "Fo ni porozɛ in kɛra diɲɛ kɔnɔ, yiriwalikɛla yɛrɛmahɔrɔn dɔ (freelancer) bɛ baara ɲumanba di min bɛ bɛn porozɛ kɛrɛnkɛrɛnnen ma min dira u ma.",
                         "Ne fɛ, danfaraba min bɛ u ni ɲɔgɔn cɛ, o ye ko baarakɛda dɔ bɛ ni ekipu kelen walima caman ye minnu bilalen bɛ porozɛ kelen walima caman na.",
-                        "Sɔngɔko ta fan fɛ, a bɛ bɔ porozɛ in gɛlɛya la, a kɛcogo minnu ka kan ka waleya, ani nafolo minnu ka kan (adamadenw, fɛɛrɛko, ani waatiko siratigɛ la). Hakɛw bɛ danfara ka bɔ yiriwalikɛla kelen na ka taa baarada wɛrɛ la; a ka c'a la, baara kɛli ni baarada dɔ musaka bɛ caya siɲɛ saba baara kelen in na (Alimankan na)."
+                        "Sɔngɔko ta fan fɛ, a bɛ bɔ porozɛ in gɛlɛya la, a kɛcogo minnu ka kan ka waleya, ani nafolo minnu ka kan (adamadenw, fɛɛrɛko, ani waatiko siratigɛ la). Hakɛw bɛ danfara ka bɔ yiriwalikɛla kelen na ka taa baarada wɛrɛ la; a ka c'a la, baara kɛli ni baarada dɔ musaka bɛ caya siɲɛ saba baara kelen in na."
                     ]
                 }
             ],
             "imgAlt": "kodɔnni kɛli ɔridinatɛri yɛrɛ kan"
         },
         {
-            "title": "Kalandenw minnu tɛna baara daminɛ!",
+            "title": "Kalandenw minnu tɛna baara daminɛ !",
             "teaser": "Dɔgɔtɔrɔso kura ka baarakɛlaw tacogo dɔgɔyali k'a sɔrɔ tekinolojitɔnba dɔw bɛ ka sɔrɔko jatew tiɲɛ.",
             "content": [
                 {
                     "subtitle": "Kun suguya caman kosɔn, complexe kelen-kelen bɛɛ n'a yɛrɛ ye",
                     "items": [
-                        "Piramidi sanfɛ, ɲɛmɔgɔba kɔrɔw sigilen bɛ, k'a sɔrɔ duguma, IT baarakɛla fitininw ni cɛmancɛlamɔgɔw bɛ da sɔgɔlen sɔrɔ u ɲɛda la  -  tuma caman na, bawo san 3-4 dɔnniya wajibiyalen tɛ u bolo (baara-kalan porogaramuw ni stagew tɛ o la). O waati kelen na, AI bɛ ka baarakɛlaw bila u nɔ na ni dususuma ye ani cogo la min tɛ ɲɛ; mago tɛ tugun ka ekipu dafalen dɔ ta  -  a porozɛ min tun bɛ 5-6 de wajibiya fɔlɔ, o bɛ se ka ɲɛnabɔ sisan dev 3-4 fɛ ni low-code/no-code platform license ye.",
+                        "Piramidi sanfɛ, ɲɛmɔgɔba kɔrɔw sigilen bɛ, k'a sɔrɔ duguma, IT baarakɛla fitininw ni cɛmancɛlamɔgɔw bɛ da sɔgɔlen sɔrɔ u ɲɛda la - tuma caman na, bawo san 3-4 dɔnniya wajibiyalen tɛ u bolo (baara-kalan porogaramuw ni stagew tɛ o la). O waati kelen na, AI bɛ ka baarakɛlaw bila u nɔ na ni dususuma ye ani cogo la min tɛ ɲɛ; mago tɛ tugun ka ekipu dafalen dɔ ta - a porozɛ min tun bɛ 5-6 de wajibiya fɔlɔ, o bɛ se ka ɲɛnabɔ sisan dev 3-4 fɛ ni low-code/no-code platform license ye.",
                         "O kɔfɛ, baara-kalan misali bɛ yen, n'a sɔrɔla o bɛ bɔ ŋaniya ɲumanw na: ka dɔnniya waleyali sɔrɔ sani i ka kalan ban walasa ka don teliya la baarakɛyɔrɔ la a ka kalan bannen kɔfɛ.",
-                        "Nka, tɔn caman bɛ ka nin wale in tiɲɛ : u bɛ 'baarakɛla fitininw' ta, ka nafa sɔrɔ o nafaw la minnu bɛ tali kɛ o la (sara, dɛmɛ, sarako impositi bɔli, a ɲɔgɔnnaw), ka sɔrɔ ka baara-kalan kalandenw kulu kura bila u nɔ na. IT baarakɛyɔrɔ dɔw bɛ taa fo ka se ka nin sara fitinin kalanden ninnu bila baarakɛɲɔgɔnw ka tɔnw na, ka wari sara kiliyan ma ni baarakɛla basigilen hakɛ ye (Alimankan na)."
+                        "Nka, tɔn caman bɛ ka nin wale in tiɲɛ : u bɛ 'baarakɛla fitininw' ta, ka nafa sɔrɔ o nafaw la minnu bɛ tali kɛ o la (sara, dɛmɛ, sarako impositi bɔli, a ɲɔgɔnnaw), ka sɔrɔ ka baara-kalan kalandenw kulu kura bila u nɔ na. IT baarakɛyɔrɔ dɔw bɛ taa fo ka se ka nin sara fitinin kalanden ninnu bila baarakɛɲɔgɔnw ka tɔnw na, ka wari sara kiliyan ma ni baarakɛla basigilen hakɛ ye."
                     ]
                 },
                 {
-                    "subtitle": "An ka segin kumasen kunba kan!",
+                    "subtitle": "An ka segin kumasen kunba kan !",
                     "items": [
-                        "Ka segin an ka piramidi kan : jɔn bɛna mɔgɔkɔrɔbaw bila u nɔ na n'u ye lafiɲɛbɔ kɛ ni mɔgɔ si tɛ wari bila denmisɛnninw na?",
-                        "O ko la, mun na hype min bɛ ɛntɛrinɛti yiriwali wuliliko lamini, o bɛ to sen na?",
-                        "Jɔn bɛ nafa sɔrɔ tiɲɛ na nin sanjiba in na tekinoloji baara sugu la?"
+                        "Ka segin an ka piramidi kan : jɔn bɛna mɔgɔkɔrɔbaw bila u nɔ na n'u ye lafiɲɛbɔ kɛ ni mɔgɔ si tɛ wari bila denmisɛnninw na ?",
+                        "O ko la, mun na hype min bɛ ɛntɛrinɛti yiriwali wuliliko lamini, o bɛ to sen na ?",
+                        "Jɔn bɛ nafa sɔrɔ tiɲɛ na nin sanjiba in na tekinoloji baara sugu la ?"
                     ]
                 }
             ],
             "imgAlt": "kalandenw bɛ kalan kɛ"
         },
         {
-            "title": "AI musaka ye mun ye tiɲɛ na?",
+            "title": "AI musaka ye mun ye tiɲɛ na ?",
             "teaser": "“An ka miiri o la dɔɔnin - a tɛ tɛmɛn!” 🙂",
             "content": [
                 {
@@ -87,35 +87,35 @@
                     ]
                 },
                 {
-                    "subtitle": "A musaka ye mun ye?",
+                    "subtitle": "A musaka ye mun ye ?",
                     "items": [
-                        "Ne fɛ, ɲinini taabolo yɛrɛ bɛ fanga di an ka sɛgɛsɛgɛli sekow ma, ka miiri kosɛbɛ, ani ka se ka kunnafoniw fara ɲɔgɔn kan  -  seko nafamaw minnu bɛ kɛ ka hakilina falenfalen kɛ, ka hakilinata di, ka i yɛrɛ jira, ani ka sɔsɔliw jɔ jamana kɔnɔ, sɔrɔko misali bɛ dusu don kalanbaliya la tiɲɛ na.",
-                        "K'a sɔrɔ musaka ye hakililata ye, a fana ye wariko ye, wa a tɛ sabati waati jan kɔnɔ : ka modeli dɔ dege i n'a fɔ ChatGPT, o bɛ kuran caman ta walasa ka Bɛliziki jamana bɛɛ fanga ta  -  Erɔpu Tlebi jamana min kɔnɔ mɔgɔ miliyɔn 11 bɛ yen ani a yɔrɔ ye kilomɛtɛrɛ 30.688 ye  -  tile kuuru kɔnɔ.",
-                        "A sira fɛ : n'a ye fu ye, i de ye fɛn ye  -  bawo miliyari minnu bilala AI la, siga t'a la ko olu tɛ bolomafara baara dɔ ye dɛ !"
+                        "Ne fɛ, ɲinini taabolo yɛrɛ bɛ fanga di an ka sɛgɛsɛgɛli sekow ma, ka miiri kosɛbɛ, ani ka se ka kunnafoniw fara ɲɔgɔn kan - seko nafamaw minnu bɛ kɛ ka hakilina falenfalen kɛ, ka hakilinata di, ka i yɛrɛ jira, ani ka sɔsɔliw jɔ jamana kɔnɔ, sɔrɔko misali bɛ dusu don kalanbaliya la tiɲɛ na.",
+                        "K'a sɔrɔ musaka ye hakililata ye, a fana ye wariko ye, wa a tɛ sabati waati jan kɔnɔ : ka modeli dɔ dege i n'a fɔ ChatGPT, o bɛ kuran caman ta walasa ka Bɛliziki jamana bɛɛ fanga ta  -  Erɔpu Tlebi jamana min kɔnɔ mɔgɔ miliyɔn 11 bɛ yen ani a yɔrɔ ye kilomɛtɛrɛ 30.688 ye - tile kuuru kɔnɔ.",
+                        "A sira fɛ : n'a ye fu ye, i de ye fɛn ye - bawo miliyari minnu bilala AI la, siga t'a la ko olu tɛ bolomafara baara dɔ ye dɛ !"
                     ]
                 }
             ],
             "imgAlt": "yɔrɔ min bɛ kuran bɔ"
         },
         {
-            "title": "An b'an ka kunnafoniw di jɔn ma?",
-            "teaser": "I tɛ se k'i ka baarakɛlaw ka jatew lisɛli (ani kunnafoni minnu dira) don kaye kelen kɔnɔ wa?",
+            "title": "An b'an ka kunnafoniw di jɔn ma ?",
+            "teaser": "I tɛ se k'i ka baarakɛlaw ka jatew lisɛli (ani kunnafoni minnu dira) don kaye kelen kɔnɔ wa ?",
             "content": [
                 {
                     "subtitle": "Kalansen",
                     "items": [
-                        "Sibiridon sɔgɔma, wulu sugu la, Jack bolila ka taa Rose sɔrɔ; foli surun dɔ kɔfɛ, Jack bɛ ɲininkaliw daminɛ (cogo nɔgɔlen na, tiɲɛ don):",
-                        "I tɔgɔ kanulen ye mun ye? (tɔgɔ)",
-                        "I ɲɛda ka dɔgɔ kosɛbɛ! (san)",
-                        "Cogo di? N ma deli k'i ye yan lamini na! (adrɛsi)",
-                        "Ne b'aw ka hakilina waleɲumandɔn kosɛbɛ n ka siti kan... Yala ne bɛna o ladɛrɛsi ci aw ma telefɔni walima imɛri la wa? (contact details)",
-                        "Mɔgɔ dɔ delila k'a fɔ i ye wa? I bɛ i ko feerekɛla! (profession)"
+                        "Sibiridon sɔgɔma, wulu sugu la, Jack bolila ka taa Rose sɔrɔ; foli surun dɔ kɔfɛ, Jack bɛ ɲininkaliw daminɛ (cogo nɔgɔlen na, tiɲɛ don) :",
+                        "I tɔgɔ kanulen ye mun ye ? (tɔgɔ)",
+                        "I ɲɛda ka dɔgɔ kosɛbɛ ! (san)",
+                        "Cogo di? N ma deli k'i ye yan lamini na ! (adrɛsi)",
+                        "Ne b'aw ka hakilina waleɲumandɔn kosɛbɛ n ka siti kan... Yala ne bɛna o ladɛrɛsi ci aw ma telefɔni walima imɛri la wa ? (mɔgɔw ka ɲɔgɔn sɔrɔ fɛɛrɛw)",
+                        "Mɔgɔ dɔ delila k'a fɔ i ye wa ? I bɛ i ko feerekɛla! (baara)"
                     ]
                 },
                 {
                     "subtitle": "Kuma wɛrɛ la",
                     "items": [
-                        "A kɔrɔ yɛrɛ la, Jack bɛ ka Rose ka kunnafoniw lajɛ; a ka ca a la, a bɛ kɛ cogo kelen na min bɛ kɛ ni siti caman ni ɛntɛrinɛti baarakɛminɛn caman ye. U b'a fɛ ka fɛn bɛɛ dɔn - hali kunnafoni minnu tɛ wajibiya u ka baara la:",
+                        "A kɔrɔ yɛrɛ la, Jack bɛ ka Rose ka kunnafoniw lajɛ; a ka ca a la, a bɛ kɛ cogo kelen na min bɛ kɛ ni siti caman ni ɛntɛrinɛti baarakɛminɛn caman ye. U b'a fɛ ka fɛn bɛɛ dɔn - hali kunnafoni minnu tɛ wajibiya u ka baara la :",
                         "Agence temporaire min bɛ pasipɔri ɲini ka fara ID card valide kan min dira kaban.",
                         "Platiforme min bɛ se ka sosiyete ka nimɔrɔ, ID karti, walima banki karti ɲini walasa k'a sɛgɛsɛgɛ ko i si hakɛ bɛ sariya sira fɛ.",
                         "Siti min bɛ i sigiyɔrɔ wajibiya kɔnɔna baarakɛcogo sariyaw kama...",
@@ -123,16 +123,16 @@
                     ]
                 },
                 {
-                    "subtitle": "Yɛlɛma bɛ daminɛ sisan!",
+                    "subtitle": "Yɛlɛma bɛ daminɛ sisan !",
                     "items": [
                         "Ne fɛ, IT ɲɛnabɔcogo minnu tɔgɔ ma fɔ (ni a bɛ se ka kɛ cogo min na) ka kan ka kɛ sariya ye nin waati in na, ɛntɛrinɛti juguyaba in na.",
-                        "Sanni i ka i tɔgɔ sɛbɛn plateforme o plateforme la, i ka segin 30 ta:",
-                        "Mun na u mago bɛ nin kunnafoni in na?",
-                        "Jɔn bɛna se ka don a la?",
-                        "U ka baarakɛlaw ka kunnafoniw lakanani sariya ye mun ye?",
-                        "Yala jatebɔ min bɛ nin appli in kan, o nafa ka bon tiɲɛ na wa?",
-                        "Yala fura wɛrɛ bɛ yen wa?",
-                        "Sugandili wɛrɛ bɛ se ka kɛ ka John Doe bɛ min kɛ. Bonjour, ne ye John ye; ne tɛ kunnafoni kunntan si di ne yɛrɛ kan!"
+                        "Sanni i ka i tɔgɔ sɛbɛn plateforme o plateforme la, i ka segin 30 ta :",
+                        "Mun na u mago bɛ nin kunnafoni in na ?",
+                        "Jɔn bɛna se ka don a la ?",
+                        "U ka baarakɛlaw ka kunnafoniw lakanani sariya ye mun ye ?",
+                        "Yala jatebɔ min bɛ nin appli in kan, o nafa ka bon tiɲɛ na wa ?",
+                        "Yala fura wɛrɛ bɛ yen wa ?",
+                        "Sugandili wɛrɛ bɛ se ka kɛ ka John Doe bɛ min kɛ. Bonjour, ne ye John ye; ne tɛ kunnafoni kunntan si di ne yɛrɛ kan !"
                     ]
                 }
             ],
@@ -143,8 +143,8 @@
         "linkToThatQuote": "# Lien min bɛ nin dakun in na"
     },
     "alerts": {
-        "copySuccess": "Texte copié ka ɲɛ!",
-        "copyError": "Misali ye sɛbɛnni kopi kɛ!"
+        "copySuccess": "sɛbɛnni kopi kɛra ka ɲɛ !",
+        "copyError": "fili kɛra ka sɛbɛnniw kopi kɛ."
     },
     "seo": {
         "title": "Bulɔgu yɔrɔ min bɛna Ethicarch ka yelifɛn tila aw ni ɲɔgɔn cɛ.",
