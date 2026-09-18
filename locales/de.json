@@ -22,8 +22,8 @@
                 {
                     "subtitle": "Ein Beruf, der sich rasend schnell entwickelt",
                     "items": [
-                        "Es gibt eine ganze Reihe von Begriffen für Softwareentwickler : Webentwickler, Frontend-Entwickler, Backend-Entwickler, Full-Stack Entwickler, X-Entwickler, Webdesigner …",
-                        "Die Konzeption einer Website wird immer komplexer : Neben der Nutzung von Bibliotheken (oder Frameworks) muss der Webentwickler eine Vielzahl von Werkzeugen beherrschen - von Programmiersprachen, Plugins, Erweiterungen, Bibliotheken, Paketmanagern und Bundlern bis hin zu Versionsverwaltung, Projektmanagement und Containern…",
+                        "Es gibt eine ganze Reihe von Begriffen für Softwareentwickler : Webentwickler, Frontend-Entwickler, Backend-Entwickler, Full-Stack Entwickler, X-Entwickler, Webdesigner...",
+                        "Die Konzeption einer Website wird immer komplexer : Neben der Nutzung von Bibliotheken (oder Frameworks) muss der Webentwickler eine Vielzahl von Werkzeugen beherrschen - von Programmiersprachen, Plugins, Erweiterungen, Bibliotheken, Paketmanagern und Bundlern bis hin zu Versionsverwaltung, Projektmanagement und Containern...",
                         "Dabei bewegt sich der Beruf des Webentwicklers an der Schnittstelle verschiedener Fachgebiete, wie Webarchitektur, DevOps, Design, Suchmaschinenoptimierung (SEO) usw.",
                         "Zu akzeptieren, dass ein Großteil des eigenen Wissens als Entwickler im Internet zu finden ist, zu lernen, wie man Funktionen für Laien verständlich erklärt, und nicht jedem Wunsch der Kollegen nachzugeben - das sind Prinzipien, die das Berufsleben verändern können.",
                         "Sie stehen am Anfang Ihrer Laufbahn in der Webentwicklung ? Ich empfehle Ihnen die frei zugänglichen Kurse auf OPENCLASSROOMS."
@@ -99,7 +99,7 @@
         },
         {
             "title": "Wem geben wir unsere Informationen weiter ?",
-            "teaser": "Passt die Liste deiner Benutzerkonten (und der bereitgestellten Infos) nicht in ein Notizbuch?",
+            "teaser": "Passt die Liste deiner Benutzerkonten (und der bereitgestellten Infos) nicht in ein Notizbuch ?",
             "content": [
                 {
                     "subtitle": "Auslösendes Ereignis",
@@ -147,7 +147,7 @@
         "copyError": "Fehler beim Kopieren des Textes !"
     },
     "seo": {
-        "title": "Blog, um die Vision von Ethicarch zu teilen",
+        "title": "Ethicarch Blog, um die Vision von zu teilen",
         "description": "In Artikeln, die sich vorwiegend mit der Anwendungsentwicklung und der Tech-Branche befassen, möchte ich meine Sichtweise darlegen."
     }
 }

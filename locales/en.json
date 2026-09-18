@@ -16,13 +16,13 @@
     },
     "articles": [
         {
-            "title": "What is web development?",
-            "teaser": "Web developer, frontend, backend, or full stack — different facets of the same profession?",
+            "title": "What is web development ?",
+            "teaser": "Web developer, frontend, backend, or full stack - different facets of the same profession ?",
             "content": [
                 {
                     "subtitle": "A profession that evolves as fast as a vacuum cleaner sucking up air",
                     "items": [
-                        "A whole range of terminology exists to define the software engineer: web developer, frontend developer, backend developer, full stack developer, X developer, web designer…",
+                        "A whole range of terminology exists to define the software engineer : web developer, frontend developer, backend developer, full stack developer, X developer, web designer...",
                         "Designing a website is increasingly complex : in addition to having to rely on a library (or a framework), the web development specialist must use a varied range of tools : programming languages, plugins, extensions, libraries, package managers, bundlers, code versioning, project management, containers...",
                         "That being said, the job of web developer is emerging at the border of several specialties, namely web architecture, devOps, design, website referencing, etc.",
                         "Accepting that as a developer, a major part of your knowledge is found on the internet, practicing to popularize a functionality for ordinary people and not bending to all the wishes of your collaborators are principles that change life.",
@@ -40,8 +40,8 @@
                     "subtitle": "Cost of developing a web project",
                     "items": [
                         "Unless it is a global project, an independent developer (freelance) carries out qualitative work appropriate to the project assigned to him",
-                        "In my opinion, the main points of divergence: an agency has one or more teams they are assigned to one or more projects.",
-                        "As for the price depending on the complexity of the project of the functionalities to be implemented as well as the resources to be mobilized (human, material and time resources). The price scale can also change from one developer to another, from one agency to another: we can estimate that the agency cost is three times higher for the same service"
+                        "In my opinion, the main points of divergence : an agency has one or more teams they are assigned to one or more projects.",
+                        "As for the price depending on the complexity of the project of the functionalities to be implemented as well as the resources to be mobilized (human, material and time resources). The price scale can also change from one developer to another, from one agency to another : we can estimate that the agency cost is three times higher for the same service."
                     ]
                 }
             ],
@@ -54,9 +54,9 @@
                 {
                     "subtitle": "For a variety of reasons, each complex in its own right",
                     "items": [
-                        "At the top of the pyramid sit senior executives, while at the bottom, junior and mid-level IT professionals find the door slammed in their faces—often because they lack the required 3-4 years of experience (excluding work-study programs and internships). Meanwhile, AI is quietly and indirectly replacing developers; companies decide they don't need to hire a dev—instead of a project requiring 5-6 developers, they might use just 3-4 devs equipped with a low-code/no-code platform license.",
-                        "As for work-study programs—which likely stem from good intentions: gaining practical experience before finishing one's studies to accelerate career entry upon graduation...",
-                        "The practice is being exploited by many companies: they recruit 'mini-employees,' reap the associated benefits (wages, subsidies, contribution exemptions, etc.), and then replace them with a new batch of work-study students. Some IT service firms go so far as to place these minimum-wage trainees with partner companies and bill the client at the rate of a regular employee."
+                        "At the top of the pyramid sit senior executives, while at the bottom, junior and mid-level IT professionals find the door slammed in their faces-often because they lack the required 3-4 years of experience (excluding work-study programs and internships). Meanwhile, AI is quietly and indirectly replacing developers; companies decide they don't need to hire a dev-instead of a project requiring 5-6 developers, they might use just 3-4 devs equipped with a low-code/no-code platform license.",
+                        "As for work-study programs-which likely stem from good intentions : gaining practical experience before finishing one's studies to accelerate career entry upon graduation...",
+                        "The practice is being exploited by many companies : they recruit 'mini-employees,' reap the associated benefits (wages, subsidies, contribution exemptions, etc.), and then replace them with a new batch of work-study students. Some IT service firms go so far as to place these minimum-wage trainees with partner companies and bill the client at the rate of a regular employee."
                     ]
                 },
                 {
@@ -72,12 +72,12 @@
         },
         {
             "title": "What does AI really cost ?",
-            "teaser": "“Let's think about it for a moment, it's not excessive!” 🙂",
+            "teaser": "“Let's think about it for a moment, it's not excessive !” 🙂",
             "content": [
                 {
                     "subtitle": "Before",
                     "items": [
-                        "In the past, we conducted internet searches to gather information: collecting, sorting, analyzing, and interpreting data from various sources."
+                        "In the past, we conducted internet searches to gather information : collecting, sorting, analyzing, and interpreting data from various sources."
                     ]
                 },
                 {
@@ -87,10 +87,10 @@
                     ]
                 },
                 {
-                    "subtitle": "At what cost?",
+                    "subtitle": "At what cost ?",
                     "items": [
                         "In my view, the research process helps strengthen our analytical skills, critical thinking, and ability to synthesize information; essential capabilities for reflecting, reasoning, expressing oneself, and constructing arguments in a society where the economic model actually encourages illiteracy.",
-                        "While the cost is cognitive, it is also financial and unsustainable in the long run: training a model like ChatGPT consumes enough electricity to power the entire country of Belgium for a full day, a Western European nation of 11 million people and 30,688 km².",
+                        "While the cost is cognitive, it is also financial and unsustainable in the long run : training a model like ChatGPT consumes enough electricity to power the entire country of Belgium for a full day, a Western European nation of 11 million people and 30,688 km².",
                         "On this concluding note, please when it's free you are the product because the billions invested in AI are certainly not part of a philanthropic endeavor !"
                     ]
                 }
@@ -98,7 +98,7 @@
             "imgAlt": "electrifying landscape"
         },
         {
-            "title": "Who do we give our information to?",
+            "title": "Who do we give our information to ?",
             "teaser": "Can't fit the list of your user accounts (and the info provided) into a single notebook ?",
             "content": [
                 {
@@ -115,7 +115,7 @@
                 {
                     "subtitle": "In other words",
                     "items": [
-                        "Literally, Jack is collecting Rose's information; it's more or less the same process used by many websites and web applications. They want to know everything—even details that aren't necessary for the service they provide :",
+                        "Literally, Jack is collecting Rose's information; it's more or less the same process used by many websites and web applications. They want to know everything-even details that aren't necessary for the service they provide :",
                         "A temp agency asking for a passport in addition to the valid ID card already provided.",
                         "A platform asking for a social security number, ID card, or bank card to verify that you are of legal age.",
                         "A site requiring your location for internal operational policies...",
@@ -143,7 +143,7 @@
         "linkToThatQuote": " # Link to that paragraph"
     },
     "seo": {
-        "title": "A blog sharing the Ethicarch vision",
+        "title": "Ethicarch Blog for sharing it's vision",
         "description": "Through articles focusing broadly on application development and the tech industry, I aim to share my perspective with you."
     }
 }
