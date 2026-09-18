@@ -1,8 +1,8 @@
 {
-    "title": "Barikanw",
+    "title": "Kuma kanw",
     "filters": {
         "search": {
-            "placeholder": "Web Dev"
+            "placeholder": "ɛntɛrinɛti yiriwali"
         },
         "sortByDate": {
             "mostRecent": "Kura fɔlɔ",
@@ -13,7 +13,7 @@
         }
     },
     "seo": {
-        "title": "Barikan minnu bɔra Ethicarch bulɔgu la",
-        "description": "Aw ye barokun suguya caman sɛgɛsɛgɛ: ɛntɛrinɛti dilannikɛla, dafalen dilanbaga, baarakɛla yɛrɛmahɔrɔnyalen, ɛntɛrinɛti baarada, AI..."
+        "title": "Kuma kanw minnu bɔra Ethicarch bulɔgu la",
+        "description": "Aw ye barokun suguya caman sɛgɛsɛgɛ : ɛntɛrinɛti dilannikɛla, dafalen dilanbaga, baarakɛla yɛrɛmahɔrɔnyalen, ɛntɛrinɛti baarada, AI..."
     }
 }
