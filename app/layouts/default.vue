@@ -68,7 +68,7 @@ useHead({
     meta: [
         {
             name: "google-site-verification",
-            content: "XvspJhasrnrzaznK-j73RS7oVxx9uB2T8OBgAW9cB7w",
+            content: "5hKM7mYyRjYLtipo8mCPd_1Y9ybCIBMir08xHnlD7QY",
         },
         {
             name: "robots",
