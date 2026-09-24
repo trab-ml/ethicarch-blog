@@ -18,9 +18,19 @@
             </div>
             <section class="sm:w-1/2">
                 <p class="md:font-thin md:text-3xl">{{ article.teaser }}</p>
-                <span class="text-black/80">{{
-                    formatDate(article.createdAt, $getLocale())
-                }}</span>
+                <div class="flex items-center gap-4">
+                    <span class="text-black/80">{{
+                        formatDate(article.createdAt, $getLocale())
+                    }}</span>
+                    <img
+                        :src="circumSaveDown"
+                        alt="circum save down"
+                        width="32px"
+                        class="cursor-pointer-at-hovering"
+                        :title="$t('saveDownInPdf') as string"
+                        @click="saveCurrentTab"
+                    />
+                </div>
             </section>
         </div>
         <section v-for="(section, i) in article.content" :key="i" class="mb-8">
@@ -61,6 +71,7 @@
 
 <script setup lang="ts">
 import { ROUTES } from "~/utils/routes";
+import circumSaveDown from "~/assets/icons/circum-save-down.png";
 
 const { t } = useI18n();
 const route = useRoute();
@@ -86,6 +97,9 @@ const seoDesc = (
         ? article.value.content[0]?.subtitle
         : t("notFound")
 ) as string;
+const saveCurrentTab = () => {
+    window.print()
+}
 
 useSeoMeta({
     title: () => seoTitle,
